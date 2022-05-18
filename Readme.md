@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Дарья Мей](https://up.htmlacademy.ru/htmlcss/34/user/2012389).
-* Наставник: `Александр Карташов (https://htmlacademy.ru/profile/id77080)`.
+* Наставник: [Александр Карташов](https://htmlacademy.ru/profile/id77080).
 
 ---
 
