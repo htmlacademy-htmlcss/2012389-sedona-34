@@ -101,7 +101,7 @@
           </fieldset>
             <button class="button" type="submit">Применить</button>
           </form>
-         <p class="search-result"> Найдено гостиниц: 38</p>
+         <b class="search-result"> Найдено гостиниц: 38</b>
           <select class="select-control" aria-label="Сортировка">
             <option value="popular">Сначала популярное</option>
             <option value="cheap">Сначала дешёвое</option>
@@ -124,7 +124,6 @@
           </a>
         </li>
         </ul>
-
         <ul class="sedona-product-list">
           <li class="product-card">
             <a class="product-card-link" href="#">
@@ -133,10 +132,46 @@
             </a>
             <p>Гостиница</p>
             <p class="product-card-price">От 4000 ₽</p>
-
+            <a class="product-about" href="#">Подробнее</a>
+            <button type="submit" class="button favorites-button"> В избранное</button>
+            <p> РЕЙТИНГ: 8,5</p>
           </li>
 
+          <ul class="pagination">
+            <li class="pagination-item">
+              <a class="pagination-link pagination-prev pagination-disabled">
+                <span class="visually-hidden">Предыдущая страница</span>
+              </a>
+            </li>
+            <li class="pagination-item">
+              <a class="pagination-link pagination-current">1</a>
+            </li>
+            <li class="pagination-item">
+              <a class="pagination-link" href="#">2</a>
+            </li>
+            <li class="pagination-item">
+              <a class="pagination-link" href="#">3</a>
+            </li>
+            <li class="pagination-item">
+              <a class="pagination-link" href="#">4</a>
+            </li>
+            <li class="pagination-item">
+              <a class="pagination-link pagination-next" href="#">...</a>
+            </li>
+            <li class="pagination-item">
+              <a class="pagination-link" href="#">10</a>
+            </li>
+            <li class="pagination-item">
+              <a class="pagination-link pagination-next" href="#">
+                <span class="visually-hidden">Следующая страница</span>
+              </a>
+            </li>
+          </ul>
+          <label for="">
+            <select name="" id="">
 
+            </select>
+          </label>
         </section>
         <section class="subscribe">
           <h2 class="subscribe-title">Подпишитесь на рассылку</h2>
