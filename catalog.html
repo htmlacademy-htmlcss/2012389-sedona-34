@@ -101,13 +101,17 @@
           </fieldset>
         </form>
           <form action="https://echo.htmlacademy.ru/" method="post" oninput="priceoutput.value=priceoutput.value">
-            <label for="priceoutput" class="catalog-filter-price">Стоимость, ₽:</label>
-            <div class="price-range">
+            <div>
+            <label for="price-sum" class="catalog-filter-price">Стоимость, ₽:</label>
+            <input class="field" type="text"  placeholder="от" name="price-min" id="price-sum" value="0">
+            <input class="field" type="text"  placeholder="до" name="price-max" id="price-sum" value="9000">
+          </div>
+          <div>
+            <label for="priceoutput" class="catalog-filter-price-range"></label>
             <input type="range" min="0" max="9000" step="1" name="priceoutput" id="priceoutput">
-           </div>
-           <div class="price-sum">
-            <!-- Область для вывода значения -->
-           <output name="priceoutput" ></output>
+          </div>
+           <div class="price-output">
+           <output name="priceoutput"></output>
           </div>
           </form>
           <form>
