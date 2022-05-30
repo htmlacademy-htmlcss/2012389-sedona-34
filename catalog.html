@@ -54,55 +54,55 @@
     </header>
     <section class="catalog-sedona">
       <h2 class="visually-hidden">Список гостиниц с фильтрами</h2>
-      <form class="catalog-filter" action="https://echo.htmlacademy.ru/">
-        <fieldset class="catalog-filter-group">
-          <legend class="catalog-filter-title">Инфраструктура</legend>
-          <ul class="catalog-filter-list">
-            <li class="catalog-filter-item">
-              <label class="control">
-                <input class="control-input" type="checkbox" name="pool" checked>
-                Бассейн
-              </label>
-            </li>
-            <li class="catalog-filter-item">
-              <label class="control">
-                <input class="control-input" type="checkbox" name="parking" checked>
-                Парковка
-              </label>
-            </li>
-            <li class="catalog-filter-item">
-              <label class="control">
-                <input class="control-input" type="checkbox" name="wifi">
-                Wi-Fi
-              </label>
-            </li>
-          </ul>
-        </fieldset>
-        <fieldset class="catalog-filter-group">
-          <legend class="catalog-filter-title">Тип Жилья</legend>
-          <ul class="catalog-filter-list">
-            <li class="catalog-filter-item">
-              <label class="control">
-                <input class="control-input" type="radio" name="housing-type" value="hotels" checked>
-                Гостиница
-              </label>
-            </li>
-            <li class="catalog-filter-item">
-              <label class="control">
-                <input class="control-input" type="radio" name="housing-type" value="motels">
-                Мотель
-              </label>
-            </li>
-            <li class="catalog-filter-item">
-              <label class="control">
-                <input class="control-input" type="radio" name="housing-type" value="apartments">
-                Апартаменты
-              </label>
-            </li>
-          </ul>
-        </fieldset>
-      </form>
-      <form action="https://echo.htmlacademy.ru/" method="post" oninput="priceoutput.value=priceoutput.value">
+      <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="post"
+        oninput="priceoutput.value=priceoutput.value"></form>
+      <fieldset class="catalog-filter-group">
+        <legend class="catalog-filter-title">Инфраструктура</legend>
+        <ul class="catalog-filter-list">
+          <li class="catalog-filter-item">
+            <label class="control">
+              <input class="control-input" type="checkbox" name="pool" checked>
+              Бассейн
+            </label>
+          </li>
+          <li class="catalog-filter-item">
+            <label class="control">
+              <input class="control-input" type="checkbox" name="parking" checked>
+              Парковка
+            </label>
+          </li>
+          <li class="catalog-filter-item">
+            <label class="control">
+              <input class="control-input" type="checkbox" name="wifi">
+              Wi-Fi
+            </label>
+          </li>
+        </ul>
+      </fieldset>
+      <fieldset class="catalog-filter-group">
+        <legend class="catalog-filter-title">Тип Жилья</legend>
+        <ul class="catalog-filter-list">
+          <li class="catalog-filter-item">
+            <label class="control">
+              <input class="control-input" type="radio" name="housing-type" value="hotels" checked>
+              Гостиница
+            </label>
+          </li>
+          <li class="catalog-filter-item">
+            <label class="control">
+              <input class="control-input" type="radio" name="housing-type" value="motels">
+              Мотель
+            </label>
+          </li>
+          <li class="catalog-filter-item">
+            <label class="control">
+              <input class="control-input" type="radio" name="housing-type" value="apartments">
+              Апартаменты
+            </label>
+          </li>
+        </ul>
+      </fieldset>
+      <fieldset class="catalog-filter-group">
         <div>
           <label for="price-min" class="catalog-filter-price">Стоимость, ₽:</label>
           <input class="field" type="text" placeholder="от" name="price-min" id="price-min" value="0">
@@ -116,6 +116,7 @@
         <div class="price-output">
           <output name="priceoutput"></output>
         </div>
+      </fieldset>
       </form>
       <form>
         <button class="button" type="submit">Применить</button>
