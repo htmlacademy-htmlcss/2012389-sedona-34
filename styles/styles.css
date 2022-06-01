@@ -19,6 +19,65 @@ body {
 
   font-size: 22px;
   line-height: 26px;
+  color: #333333;
+  background-color: #FFFFFF;
 }
 
+.page-header {
+color: #000000;
+background-color: #FFFFFF;
+}
 
+.navigation-link {
+  font-weight: 700;
+  color: #000000;
+  text-align: center;
+  text-transform: capitalize;
+background-color: #FFFFFF;
+}
+
+.motto-background  {
+  background: url("images/background/welcome-background.jpg");
+  background-color: #FFFFFF;
+}
+
+.sedona-intro-title {
+  font-size: 30px;
+line-height: 36px;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.background-blue {
+  color: #FFFFFF;
+  background-color: #82B3D3;
+}
+
+.advantages-title  {
+  font-weight: 700;
+font-size: 24px;
+line-height: 28px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background-color: #82B3D3;
+
+}
+
+.advantages-number {
+  font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+color: #FFFFFF;
+  background-color: #82B3D3;
+
+}
+
+.advantages-description {
+  font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+text-align: center;
+color: #FFFFFF;
+  background-color: #82B3D3;
+}
