@@ -146,7 +146,7 @@ line-height: 36px;
   background-color: #756157;
 }
 
-.subscribe-title {
+.subscribe-title-index {
   color: #FFFFFF;
   font-weight: 700;
 font-size: 30px;
@@ -155,7 +155,7 @@ line-height: 36px;
   text-transform: uppercase;
 }
 
-.subscribe-description {
+.subscribe-description-index {
   color: #FFFFFF;
   font-weight: 400;
 font-size: 22px;
@@ -163,10 +163,28 @@ line-height: 26px;
 text-align: center;
 }
 
-.subscribe {
+.subscribe-index {
 background: url("../images/background/subscribe-background.jpg") no-repeat;
 width: 1200px;
 height: 411px;
+}
+
+.subscribe-button {
+  color:#FFFFFF;
+  font-weight: 700;
+font-size: 20px;
+line-height: 36px;
+text-align: center;
+text-transform: uppercase;
+background-color: #82B3D3;
+}
+
+.field {
+  background-color: #F2F2F2;
+  font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+color: #000000;
 }
 
 .contacts-phone {
@@ -174,6 +192,8 @@ height: 411px;
   font-size: 40px;
 line-height: 40px;
 }
+
+/* Каталог */
 
 .inner-header-title{
 color: #FFFFFF;
@@ -186,6 +206,7 @@ line-height: 78px;
   background: url("../images/background/filter-background.jpg") no-repeat;
   width: 1120px;
 height: 403px;
+ margin-bottom: 300px; /*добавила временно*/
 }
 
 .breadcrumbs-item {
@@ -208,4 +229,121 @@ line-height: 26px;
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
+}
+
+.catalog-filter-price {
+  color: #FFFFFF;
+  font-weight: 700;
+font-size: 20px;
+line-height: 26px;
+  text-transform: capitalize;
+}
+.search-result {
+  color: #000000;
+  font-weight: 700;
+font-size: 30px;
+line-height: 36px;
+  text-transform: uppercase;
+}
+
+.select-control {
+  color: #333333;
+  font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+}
+
+.product-card-title {
+  font-weight: 700;
+font-size: 24px;
+line-height: 28px;
+color: #000000;
+}
+
+.housing-hotel {
+  color: #333333;
+  font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+}
+
+.product-card-price {
+  color: #333333;
+  font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+}
+
+.rating {
+  color:#333333
+  font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+}
+
+.product-about {
+  background-color:#756157;
+color: #FFFFFF;
+font-weight: 700;
+font-size: 16px;
+line-height: 20px;
+text-align: center;
+text-transform: uppercase;
+}
+
+.favorites-button {
+  background-color: #82B3D3;;
+  color: #FFFFFF;
+  font-weight: 700;
+font-size: 16px;
+line-height: 20px;
+text-align: center;
+text-transform: uppercase;
+}
+
+.pagination-link {
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  background-color:#82B3D3;
+}
+
+.pagination-current{
+  color:#000000;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  background-color:#F2F2F2;
+}
+
+.search-results {
+  color: #333333;
+  font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+}
+
+.results-on-page {
+  color: #333333;
+  font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+}
+
+.subscribe-title {
+  color:#000000;
+  font-weight: 700;
+font-size: 30px;
+line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.subscribe-description  {
+  color: #333333;
+  font-weight: 400;
+font-size: 22px;
+line-height: 26px;
+text-align: center;
 }
