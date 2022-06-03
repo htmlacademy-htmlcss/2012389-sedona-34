@@ -301,6 +301,10 @@ text-align: center;
 text-transform: uppercase;
 }
 
+.favorites-button-selected {
+  background-color: #7DB54F;
+}
+
 .pagination-link {
   color: #FFFFFF;
   font-weight: 700;
