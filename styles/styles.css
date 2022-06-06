@@ -20,19 +20,18 @@
 }
 */
 
-
 body {
   font-family: "PT Sans", "Arial", sans-serif;
 
   font-size: 22px;
   line-height: 26px;
   color: #333333;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 
 .page-header {
   color: #000000;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 
 .navigation-link {
@@ -40,12 +39,12 @@ body {
   color: #000000;
   text-align: center;
   text-transform: capitalize;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   text-decoration: none;
 }
 
 .navigation-link.navigation-link-special {
-  color: #FFFFFF;
+  color: #ffffff;
   background-color: #756157;
   text-transform: uppercase;
 }
@@ -56,7 +55,6 @@ body {
   height: 485px;
 }
 
-
 .sedona-intro-title {
   font-size: 30px;
   line-height: 36px;
@@ -65,7 +63,7 @@ body {
 }
 
 .advantages-content {
-  background-color: #82B3D3;
+  background-color: #82b3d3;
 }
 
 .background-lightblue {
@@ -86,7 +84,7 @@ body {
 }
 
 .advantages-content-white .advantages-title {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .advantages-number {
@@ -98,7 +96,7 @@ body {
 }
 
 .advantages-content-white .advantages-number {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .advantages-description {
@@ -109,7 +107,7 @@ body {
 }
 
 .advantages-content-white .advantages-description {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .recomendations-title {
@@ -147,7 +145,7 @@ body {
 }
 
 .sedona-travel-link {
-  color: #FFFFFF;
+  color: #ffffff;
   font-weight: 700;
   font-size: 20px;
   line-height: 36px;
@@ -180,29 +178,28 @@ body {
   height: 411px;
 }
 
-
 .subscribe-index .subscribe-title {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .subscribe-index .subscribe-description {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .subscribe-button {
   font-family: "PT Sans";
-  color: #FFFFFF;
+  color: #ffffff;
   font-weight: 700;
   font-size: 20px;
   line-height: 36px;
   text-align: center;
   text-transform: uppercase;
-  background-color: #82B3D3;
+  background-color: #82b3d3;
 }
 
 .field {
   font-family: "PT Sans";
-  background-color: #F2F2F2;
+  background-color: #f2f2f2;
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
@@ -219,7 +216,7 @@ body {
 /* Каталог */
 
 .inner-header-title {
-  color: #FFFFFF;
+  color: #ffffff;
   font-weight: 700;
   font-size: 60px;
   line-height: 78px;
@@ -237,11 +234,11 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 21px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .catalog-filter-title {
-  color: #FFFFFF;
+  color: #ffffff;
   font-weight: 700;
   font-size: 20px;
   line-height: 26px;
@@ -249,14 +246,14 @@ body {
 }
 
 .catalog-filter-item {
-  color: #FFFFFF;
+  color: #ffffff;
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
 }
 
 .catalog-filter-price {
-  color: #FFFFFF;
+  color: #ffffff;
   font-weight: 700;
   font-size: 20px;
   line-height: 26px;
@@ -264,16 +261,16 @@ body {
 }
 
 .button-submit {
-  color: #FFFFFF;
+  color: #ffffff;
   text-transform: uppercase;
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
-  background-color: #82B3D3;
+  background-color: #82b3d3;
 }
 
 .button-reset {
-  color: #FFFFFF;
+  color: #ffffff;
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
@@ -297,7 +294,6 @@ body {
 
 .product-card-title-link {
   text-decoration: none;
-
 }
 
 .product-card-title {
@@ -330,7 +326,7 @@ body {
 
 .product-about {
   background-color: #756157;
-  color: #FFFFFF;
+  color: #ffffff;
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
@@ -341,8 +337,8 @@ body {
 
 .favorites-button {
   font-family: "PT Sans";
-  background-color: #82B3D3;
-  color: #FFFFFF;
+  background-color: #82b3d3;
+  color: #ffffff;
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
@@ -351,15 +347,15 @@ body {
 }
 
 .favorites-button-selected {
-  background-color: #7DB54F;
+  background-color: #7db54f;
 }
 
 .pagination-link {
-  color: #FFFFFF;
+  color: #ffffff;
   font-weight: 700;
   font-size: 20px;
   line-height: 36px;
-  background-color: #82B3D3;
+  background-color: #82b3d3;
   text-decoration: none;
 }
 
@@ -368,7 +364,7 @@ body {
   font-weight: 700;
   font-size: 20px;
   line-height: 36px;
-  background-color: #F2F2F2;
+  background-color: #f2f2f2;
 }
 
 .search-results {
@@ -380,12 +376,12 @@ body {
 
 .results-on-page {
   color: #333333;
-  font-family: 'PT Sans';
+  font-family: "PT Sans";
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
   background-color: transparent;
-  border: 2px solid #E5E5E5;
+  border: 2px solid #e5e5e5;
   border-radius: 4px;
 }
 
