@@ -1,6 +1,6 @@
 @font-face {
   font-family: "PT Sans";
-  src: url("fonts/ptsans-400.woff2") format("woff2"),
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -8,11 +8,18 @@
 
 @font-face {
   font-family: "PT Sans Bold";
-  src: url("fonts/ptsans-700.woff2") format("woff2"),
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
   font-weight: 700;
   font-style: normal;
   font-display: swap;
 }
+
+/*
+.visually-hidden {
+  visibility: hidden;
+}
+*/
+
 
 body {
   font-family: "PT Sans", "Arial", sans-serif;
@@ -34,6 +41,13 @@ background-color: #FFFFFF;
   text-align: center;
   text-transform: capitalize;
 background-color: #FFFFFF;
+text-decoration: none;
+}
+
+.want-here .navigation-link {
+  color: #FFFFFF;
+  background-color: #756157;
+  text-transform: uppercase;
 }
 
 .motto-background  {
@@ -50,7 +64,7 @@ line-height: 36px;
   text-transform: uppercase;
 }
 
-.background-blue {
+.advantages-content {
   background-color: #82B3D3;
 }
 
@@ -71,7 +85,7 @@ line-height: 28px;
   text-transform: uppercase;
 }
 
-.advantages-title-white {
+.advantages-content-white .advantages-title {
   color:#FFFFFF;
 }
 
@@ -83,7 +97,7 @@ line-height: 21px;
 text-align: center;
 }
 
-.advantages-number-white {
+.advantages-content-white .advantages-number {
   color:#FFFFFF;
 }
 
@@ -94,13 +108,9 @@ line-height: 21px;
 text-align: center;
 }
 
-.advantages-description-white {
+.advantages-content-white .advantages-description {
   color:#FFFFFF;
 }
-
-
-
-
 
 .recomendations-title {
   color: #000000;
@@ -144,10 +154,11 @@ line-height: 36px;
   text-align: center;
   text-transform: uppercase;
   background-color: #756157;
+  text-decoration: none;
 }
 
-.subscribe-title-index {
-  color: #FFFFFF;
+.subscribe-title {
+  color: #000000;
   font-weight: 700;
 font-size: 30px;
 line-height: 36px;
@@ -155,8 +166,8 @@ line-height: 36px;
   text-transform: uppercase;
 }
 
-.subscribe-description-index {
-  color: #FFFFFF;
+.subscribe-description {
+  color: #333333;
   font-weight: 400;
 font-size: 22px;
 line-height: 26px;
@@ -164,12 +175,22 @@ text-align: center;
 }
 
 .subscribe-index {
-background: url("../images/background/subscribe-background.jpg") no-repeat;
-width: 1200px;
-height: 411px;
+  background: url("../images/background/subscribe-background.jpg") no-repeat;
+  width: 1200px;
+  height: 411px;
+  }
+
+
+  .subscribe-index .subscribe-title {
+  color: #FFFFFF;
+}
+
+.subscribe-index .subscribe-description {
+  color: #FFFFFF;
 }
 
 .subscribe-button {
+  font-family: "PT Sans";
   color:#FFFFFF;
   font-weight: 700;
 font-size: 20px;
@@ -180,6 +201,7 @@ background-color: #82B3D3;
 }
 
 .field {
+  font-family: "PT Sans";
   background-color: #F2F2F2;
   font-weight: 400;
 font-size: 18px;
@@ -191,6 +213,7 @@ color: #000000;
   color: #000000;
   font-size: 40px;
 line-height: 40px;
+text-decoration: none;
 }
 
 /* Каталог */
@@ -238,6 +261,23 @@ font-size: 20px;
 line-height: 26px;
   text-transform: capitalize;
 }
+
+.button-submit {
+color: #FFFFFF;
+text-transform: uppercase;
+font-weight: 700;
+font-size: 16px;
+line-height: 20px;
+background-color: #82B3D3;
+}
+
+.button-reset {
+color:#FFFFFF;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+}
+
 .search-result {
   color: #000000;
   font-weight: 700;
@@ -275,8 +315,8 @@ line-height: 21px;
 }
 
 .rating {
-  color:#333333
-  font-weight: 400;
+color: #333333;
+font-weight: 400;
 font-size: 16px;
 line-height: 20px;
 }
@@ -289,6 +329,7 @@ font-size: 16px;
 line-height: 20px;
 text-align: center;
 text-transform: uppercase;
+text-decoration: none;
 }
 
 .favorites-button {
@@ -311,6 +352,7 @@ text-transform: uppercase;
   font-size: 20px;
   line-height: 36px;
   background-color:#82B3D3;
+  text-decoration: none;
 }
 
 .pagination-current{
