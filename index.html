@@ -8,37 +8,37 @@
 </head>
 
 <body>
-  <div class="page-container">
-    <header class="page-header">
-      <nav class="navigation">
-        <img src="images/logo.svg" width="149" height="70" alt="Логотип сайта" class="sedona-logo">
-        <ul class="navigation-list">
-          <li class="navigation-item">
-            <a class="navigation-link navigation-link-current" href="index.html">Главная</a>
-          </li>
-          <li class="navigation-item">
-            <a class="navigation-link" href="about.html">О нас</a>
-          </li>
-          <li class="navigation-item">
-            <a class="navigation-link" href="catalog.html">Гостиницы</a>
-          </li>
-        </ul>
-        <ul class="navigation-list navigation-user">
-          <li class="navigation-item">
-            <a class="navigation-link" href="#">
-              <span class="visually-hidden">Поиск</span></a>
-          </li>
-          <li class="navigation-item">
-            <a class="navigation-link" href="#">
-              <span class="visually-hidden">Избранное</span></a>
-          </li>
-          <li class="navigation-item">
-            <a class="navigation-link navigation-link-special" href="#">Хочу сюда!</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
-    <main class="main-index main-conteiner">
+  <header class="page-header">
+    <nav class="navigation">
+      <img src="images/logo.svg" width="149" height="70" alt="Логотип сайта" class="sedona-logo">
+      <ul class="navigation-list">
+        <li class="navigation-item">
+          <a class="navigation-link navigation-link-current" href="index.html">Главная</a>
+        </li>
+        <li class="navigation-item">
+          <a class="navigation-link" href="about.html">О нас</a>
+        </li>
+        <li class="navigation-item">
+          <a class="navigation-link" href="catalog.html">Гостиницы</a>
+        </li>
+      </ul>
+      <ul class="navigation-list navigation-user">
+        <li class="navigation-item">
+          <a class="navigation-link" href="#">
+            <span class="visually-hidden">Поиск</span></a>
+        </li>
+        <li class="navigation-item">
+          <a class="navigation-link" href="#">
+            <span class="visually-hidden">Избранное</span></a>
+        </li>
+        <li class="navigation-item">
+          <a class="navigation-link navigation-link-special" href="#">Хочу сюда!</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main class="main-index main-container">
+    <div class="page-container">
       <h1 class="visually-hidden">Sedona</h1>
       <div class="motto-background">
         <img src="images/welocome-group.svg" width="458" height="352"
@@ -110,24 +110,30 @@
         </ul>
       </section>
       <section class="sedona-travel">
-        <h2 class="sedona-travel-title">Заинтересовались?</h2>
-        <p class="sedona-travel-description">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения
-          гостиниц в Седоне</p>
-        <a href="#" class="sedona-travel-link">Поиск гостиницы в Седоне</a>
+        <div class="sedona-travel-container">
+          <h2 class="sedona-travel-title">Заинтересовались?</h2>
+          <p class="sedona-travel-description">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения
+            гостиниц в Седоне</p>
+          <a href="#" class="sedona-travel-link">Поиск гостиницы в Седоне</a>
+        </div>
       </section>
       <section class="subscribe subscribe-index">
-        <h2 class="subscribe-title">Подпишитесь на рассылку</h2>
-        <p class="subscribe-description">Только полезная информация и никакого спама, честное
-          бойскаутское!</p>
-        <form class="subscribe-form" action="https://echo.htmlacademy.ru/" method="post">
-          <label for="subscribe-email" class="visually-hidden">Email</label>
-          <input class="field" type="email" placeholder="Ваш e-mail" name="subscribe-email" id="subscribe-email"
-            required>
-          <button class="button subscribe-button" type="submit">Подписаться</button>
-        </form>
+        <div class="subscribe-container">
+          <h2 class="subscribe-title">Подпишитесь на рассылку</h2>
+          <p class="subscribe-description">Только полезная информация и никакого спама, честное
+            бойскаутское!</p>
+          <form class="subscribe-form" action="https://echo.htmlacademy.ru/" method="post">
+            <label for="subscribe-email" class="visually-hidden">Email</label>
+            <input class="field" type="email" placeholder="Ваш e-mail" name="subscribe-email" id="subscribe-email"
+              required>
+            <button class="button subscribe-button" type="submit">Подписаться</button>
+          </form>
+        </div>
       </section>
-    </main>
-    <footer class="page-footer">
+    </div>
+  </main>
+  <footer class="page-footer">
+    <div class="page-footer-container">
       <section class="footer-social">
         <h2 class="page-footer-title visually-hidden">Социальные сети</h2>
         <ul class="footer-social-list">
@@ -158,8 +164,8 @@
           <img src="images/HTML-Academy.svg" width="115" height="33" class="academy-logo" alt="Логотип Академии">
         </a>
       </section>
-    </footer>
-  </div>
+    </div>
+  </footer>
 </body>
 
 </html>
