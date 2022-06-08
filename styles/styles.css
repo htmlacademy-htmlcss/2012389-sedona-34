@@ -41,7 +41,7 @@ body {
   margin: 0 auto;
 }
 
-.page-header {
+.header-container {
   color: #000000;
   background-color: #ffffff;
   margin: 0 auto;
@@ -375,8 +375,13 @@ body {
   background: url("../images/background/filter-background.jpg") no-repeat;
   width: 1120px;
   height: 403px;
-  margin-bottom: 300px;
-  /*добавила временно*/
+}
+
+.breadcrumbs {
+  display: flex;
+  list-style: none;
+  gap: 10px;
+
 }
 
 .breadcrumbs-item {
@@ -384,6 +389,18 @@ body {
   font-size: 16px;
   line-height: 21px;
   color: #ffffff;
+}
+
+.catalog-filter {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 1060px;
+}
+
+.catalog-filter-group {
+  border: none;
+
 }
 
 .catalog-filter-title {
@@ -407,6 +424,11 @@ body {
   font-size: 20px;
   line-height: 26px;
   text-transform: capitalize;
+  width: 288px;
+}
+
+.catalog-filter-buttons {
+  border: none;
 }
 
 .button-submit {
@@ -426,12 +448,22 @@ body {
   background-color: transparent;
 }
 
+.search-container {
+  display: flex;
+  flex-direction: row;
+  width: 1057px;
+  justify-content: space-between;
+  margin-left: 72px;
+  margin-right: 71px;
+}
+
 .search-result {
   color: #000000;
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
   text-transform: uppercase;
+
 }
 
 .select-control {
@@ -439,6 +471,19 @@ body {
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
+  width: 290px;
+}
+
+.sedona-product-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+.product-card {
+  padding: 20px;
+  margin-right: 18px;
 }
 
 .product-card-title-link {
@@ -499,6 +544,21 @@ body {
   background-color: #7db54f;
 }
 
+.pagination-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 1056px;
+}
+
+.pagination {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 8px;
+  list-style: none;
+}
+
 .pagination-link {
   color: #ffffff;
   font-weight: 700;
@@ -506,6 +566,7 @@ body {
   line-height: 36px;
   background-color: #82b3d3;
   text-decoration: none;
+  width: 60px;
 }
 
 .pagination-current {
