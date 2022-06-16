@@ -264,8 +264,8 @@ body {
 }
 
 .subscribe {
-
-  margin: 0 auto;
+margin: 0 auto;
+padding: 94px 200px 94px 200px;
 }
 
 .subscribe-title {
@@ -301,7 +301,7 @@ body {
   color: #ffffff;
 }
 
-.subscribe-form {}
+
 
 .subscribe-button {
   font-family: "PT Sans";
