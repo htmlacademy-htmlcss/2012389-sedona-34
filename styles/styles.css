@@ -141,6 +141,8 @@ body {
   margin: 0;
 }
 
+/*Секция преимуществ*/
+
 .advantages-list {
   display: flex;
   flex-wrap: wrap;
@@ -149,8 +151,37 @@ body {
   list-style-type: none;
 }
 
+
+.advantages-item {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+}
+
+.advantages-item .background-lightblue {
+  padding: 103px 85px 102px 85px;
+
+}
+
+.advantages-item .background-lighterblue {
+  padding: 103px 85px 102px 85px;
+
+}
+
+.advantages-item-info {
+  flex-basis: 400px;
+}
+
 .advantages-content {
   background-color: #82b3d3;
+  width: 400px;
+
+}
+
+.advantages-additional-content {
+  padding: 95px 82px 81px 82px;
+  flex-basis: 400px;
 }
 
 .advantages-image {
@@ -160,6 +191,7 @@ body {
 
 .background-lightblue {
   background: rgba(131, 179, 211, 0.12);
+
 }
 
 .background-lighterblue {
@@ -202,9 +234,21 @@ body {
   color: #ffffff;
 }
 
+.recomendations-container {
+  margin: 0 auto;
+}
+
 .recomendations-list {
   display: flex;
-  list-style: none;
+  flex-direction: row;
+  list-style-type: none;
+  justify-content: space-between;
+  padding: 0;
+}
+
+.recomendations-item {
+  flex-basis: 400px;
+  padding: 80px 85px 81px 85px;
 }
 
 .recomendations-title {
@@ -223,6 +267,8 @@ body {
   line-height: 21px;
   text-align: center;
 }
+
+/*Секция поиска в каталоге*/
 
 .sedona-travel {
   padding: 91px 304px 93px 304px;
@@ -263,9 +309,10 @@ body {
   margin-top: 56px;
 }
 
-.subscribe {
-margin: 0 auto;
-padding: 94px 200px 94px 200px;
+/*Секция подписки на новости*/
+
+.subscribe-container {
+  padding: 94px 200px 94px 200px;
 }
 
 .subscribe-title {
@@ -276,7 +323,8 @@ padding: 94px 200px 94px 200px;
   text-align: center;
   text-transform: uppercase;
   white-space: nowrap;
-
+  margin: 0;
+  margin-bottom: 29px;
 }
 
 .subscribe-description {
@@ -291,6 +339,7 @@ padding: 94px 200px 94px 200px;
   background: url("../images/background/subscribe-background.jpg") no-repeat;
   width: 1200px;
   height: 411px;
+
 }
 
 .subscribe-index .subscribe-title {
@@ -300,7 +349,6 @@ padding: 94px 200px 94px 200px;
 .subscribe-index .subscribe-description {
   color: #ffffff;
 }
-
 
 
 .subscribe-button {
@@ -314,8 +362,8 @@ padding: 94px 200px 94px 200px;
   background-color: #82b3d3;
   width: 200px;
   height: 60px;
-
 }
+
 
 .field {
   font-family: "PT Sans";
@@ -329,6 +377,8 @@ padding: 94px 200px 94px 200px;
   padding: 0;
   border: 0;
 }
+
+/*Футер*/
 
 .page-footer {
   display: flex;
@@ -602,21 +652,4 @@ padding: 94px 200px 94px 200px;
   background-color: transparent;
   border: 2px solid #e5e5e5;
   border-radius: 4px;
-}
-
-.subscribe-title {
-  color: #000000;
-  font-weight: 700;
-  font-size: 30px;
-  line-height: 36px;
-  text-align: center;
-  text-transform: uppercase;
-}
-
-.subscribe-description {
-  color: #333333;
-  font-weight: 400;
-  font-size: 22px;
-  line-height: 26px;
-  text-align: center;
 }
