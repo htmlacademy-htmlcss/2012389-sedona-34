@@ -584,6 +584,8 @@ body {
   font-size: 30px;
   line-height: 36px;
   text-transform: uppercase;
+  padding: 0;
+  margin-left: 72x;
 
 }
 
@@ -593,7 +595,21 @@ body {
   font-size: 18px;
   line-height: 21px;
   width: 290px;
+  background: none;
+  border: 2px solid #E5E5E5;
+  padding: 0;
+  margin: 0;
 }
+
+.type-of-view {
+  display: flex;
+  list-style-type: none;
+  gap: 8px;
+  min-width: 48px;
+  margin: 0;
+  padding: 0;
+}
+
 
 .sedona-product-list {
   display: flex;
@@ -670,7 +686,6 @@ body {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  width: 1056px;
 }
 
 .pagination {
@@ -679,6 +694,8 @@ body {
   justify-content: flex-start;
   gap: 8px;
   list-style: none;
+  padding-left: 73px;
+  margin: 0;
 }
 
 .pagination-link {
@@ -688,9 +705,12 @@ body {
   line-height: 36px;
   background-color: #82b3d3;
   text-decoration: none;
-  width: 60px;
-  display: block;
   text-align: center;
+  width: 60px;
+  height: 60px;
+  display: block;
+  box-sizing: border-box;
+  padding: 11px 12px;
 }
 
 .pagination-current {
@@ -701,12 +721,15 @@ body {
   background-color: #f2f2f2;
 }
 
+.pagination-disabled {
+  background-color: none;
+}
+
 .search-results {
   color: #333333;
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
-
 }
 
 .results-on-page {
@@ -718,4 +741,6 @@ body {
   background-color: transparent;
   border: 2px solid #e5e5e5;
   border-radius: 4px;
+  width: 160px;
+  height: 49px;
 }
