@@ -654,21 +654,31 @@ body {
 
 .sedona-product-list {
   display: grid;
-  grid-template-columns: repeat(3, 340px);
+  grid-template-columns: repeat(3, 360px);
   gap: 18px;
   list-style: none;
   margin-top: 0;
   margin-bottom: 66px;
-  padding: 0;
+  box-sizing: border-box;
+  padding: 20px;
 }
 
 .product-card {
+  display: grid;
+  grid-template-columns: repeat(2, 140px);
+  gap: 20px;
   padding: 20px;
   margin-right: 18px;
 }
 
+.product-card-image-link {
+  grid-column: 1 / -1;
+}
+
+
 .product-card-title-link {
   text-decoration: none;
+  grid-column: 1 / -1;
 }
 
 .product-card-title {
@@ -676,6 +686,7 @@ body {
   font-size: 24px;
   line-height: 28px;
   color: #000000;
+  margin: 0;
 }
 
 .housing-hotel {
@@ -683,6 +694,7 @@ body {
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
+  margin: 0;
 }
 
 .product-card-price {
@@ -690,6 +702,7 @@ body {
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
+  margin: 0;
 }
 
 .rating {
@@ -697,6 +710,8 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
+  margin: 0;
+  padding: 9px 22px 8px 23px;
 }
 
 .product-about {
@@ -708,6 +723,9 @@ body {
   text-align: center;
   text-transform: uppercase;
   text-decoration: none;
+  display: block;
+  padding: 9px 15px 8px 15px;
+
 }
 
 .favorites-button {
@@ -719,6 +737,8 @@ body {
   line-height: 20px;
   text-align: center;
   text-transform: uppercase;
+  padding: 9px 14px 8px 15px;
+  border: 0;
 }
 
 .favorites-button-selected {
