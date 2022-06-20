@@ -439,22 +439,21 @@ body {
   font-size: 60px;
   line-height: 78px;
   margin: 0;
-  padding-top: 35px;
-  padding-left: 70px;
-  padding-bottom: 10px;
+
 }
 
 
 .filter-background {
   background: url("../images/background/filter-background.jpg") no-repeat;
+  padding: 35px 70px 70px;
+
 }
 
 .breadcrumbs {
   display: flex;
   list-style: none;
   gap: 10px;
-  margin: 0;
-  margin-bottom: 40px;
+
 }
 
 .breadcrumbs-item {
@@ -467,8 +466,8 @@ body {
 
 .catalog-sedona {
   box-sizing: border-box;
-  padding-left: 70px;
-  padding-bottom: 70px;
+  /*padding-left: 70px;
+  padding-bottom: 70px;*/
 }
 
 .catalog-filter {
@@ -477,6 +476,7 @@ body {
   justify-content: space-between;
   width: 1060px;
 }
+
 
 .catalog-filter-list {
   padding-left: 0;
