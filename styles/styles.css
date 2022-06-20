@@ -156,18 +156,28 @@ body {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-
+  justify-content: center;
 }
 
-.advantages-item .background-lightblue {
+.advantages-item.advantages-item-info.background-lightblue {
   padding: 103px 85px 102px 85px;
-
+  box-sizing: border-box;
 }
 
-.advantages-item .background-lighterblue {
+.advantages-item.advantages-item-info.background-lighterblue {
   padding: 103px 85px 102px 85px;
-
+  box-sizing: border-box;
 }
+
+
+.background-lightblue {
+  background: rgba(131, 179, 211, 0.12);
+}
+
+.background-lighterblue {
+  background: rgba(131, 179, 211, 0.2);
+}
+
 
 .advantages-item-info {
   flex-basis: 400px;
@@ -187,15 +197,6 @@ body {
 .advantages-image {
   width: 800px;
   height: 400px;
-}
-
-.background-lightblue {
-  background: rgba(131, 179, 211, 0.12);
-
-}
-
-.background-lighterblue {
-  background: rgba(131, 179, 211, 0.2);
 }
 
 .advantages-title {
@@ -230,6 +231,7 @@ body {
   line-height: 21px;
   text-align: center;
   margin-bottom: 0;
+
 }
 
 .advantages-content-white .advantages-description {
@@ -297,6 +299,7 @@ body {
   text-align: center;
   white-space: nowrap;
   margin: 0;
+  margin-bottom: 56px;
 }
 
 .sedona-travel-link {
@@ -310,14 +313,16 @@ body {
   background-color: #756157;
   text-decoration: none;
   width: 574px;
-  margin-top: 56px;
+
 }
 
 /*Секция подписки на новости*/
 
-.subscribe-container {
+.subscribe {
   padding: 94px 200px 94px 200px;
+
 }
+
 
 .subscribe-title {
   color: #000000;
@@ -341,8 +346,6 @@ body {
 
 .subscribe-index {
   background: url("../images/background/subscribe-background.jpg") no-repeat;
-  width: 1200px;
-  height: 411px;
 
 }
 
@@ -463,6 +466,7 @@ body {
 }
 
 .catalog-sedona {
+  box-sizing: border-box;
   padding-left: 70px;
   padding-bottom: 70px;
 }
@@ -574,8 +578,10 @@ body {
   flex-direction: row;
   justify-content: space-between;
   flex-wrap: nowrap;
-  margin-left: 72px;
-  margin-right: 71px;
+  padding-left: 72px;
+  padding-right: 71px;
+  padding-bottom: 56px;
+  padding-top: 20px;
 }
 
 .search-result {
@@ -585,7 +591,7 @@ body {
   line-height: 36px;
   text-transform: uppercase;
   padding: 0;
-  margin-left: 72x;
+  margin-left: 72px;
 
 }
 
@@ -616,6 +622,7 @@ body {
   flex-direction: row;
   flex-wrap: wrap;
   list-style: none;
+  margin-top: 0;
 }
 
 .product-card {
@@ -686,6 +693,7 @@ body {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  padding: 30px 71px 25px 73px;
 }
 
 .pagination {
@@ -694,8 +702,8 @@ body {
   justify-content: flex-start;
   gap: 8px;
   list-style: none;
-  padding-left: 73px;
   margin: 0;
+  padding-left: 0;
 }
 
 .pagination-link {
@@ -721,9 +729,6 @@ body {
   background-color: #f2f2f2;
 }
 
-.pagination-disabled {
-  background-color: none;
-}
 
 .search-results {
   color: #333333;
