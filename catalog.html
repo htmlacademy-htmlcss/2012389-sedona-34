@@ -106,13 +106,13 @@
               <fieldset class="catalog-filter-price">
                 <legend class="catalog-filter-price-title">Стоимость, ₽:</legend>
                 <div>
-                  <label for="price-min" class="catalog-filter-price"></label>
-                  <input class="field-price" type="text" placeholder="от" name="price-min" id="price-min" value="0">
-                  <label for="price-max" class="catalog-filter-price"></label>
+                  <input class="field-price" type="text" placeholder="0" name="price-min" id="price-min" value="0">
+                  <label for="price-min" class="price-from">от</label>
                   <input class="field-price" type="text" placeholder="до" name="price-max" id="price-max" value="9000">
+                  <label for="price-max" class="price-to">до</label>
                 </div>
-                <div>
-                  <label for="priceoutput" class="catalog-filter-price-range"></label>
+                <div class="catalog-filter-price-range">
+                  <label for="priceoutput" class="filter-price-range"></label>
                   <input type="range" min="0" max="9000" step="1" name="priceoutput" id="priceoutput">
                 </div>
                 <div class="price-output">

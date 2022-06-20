@@ -518,7 +518,28 @@ body {
   margin-right: 70px;
 }
 
+/*Фильтр цены*/
+
+.price-from {
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: right;
+}
+
+.price-to {
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: right;
+}
+
 .catalog-filter-price {
+  display: grid;
   border: none;
   margin: 0;
   margin-right: 70px;
@@ -532,13 +553,25 @@ body {
   font-size: 20px;
   line-height: 26px;
   text-transform: capitalize;
-  width: 288px;
+  margin-bottom: 34px;
 }
-
 
 .field-price {
   width: 140px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #ffffff;
+  background-color: transparent;
 }
+
+
+.catalog-filter-price-range {
+  grid-column: 1 / -1;
+}
+
+
 
 .catalog-filter-buttons {
   display: flex;
@@ -572,6 +605,7 @@ body {
   padding: 14px 15px;
 }
 
+/*Блок поиска*/
 
 .search-container {
   display: flex;
@@ -616,13 +650,16 @@ body {
   padding: 0;
 }
 
+/*Карточки продуктов*/
 
 .sedona-product-list {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(3, 340px);
+  gap: 18px;
   list-style: none;
   margin-top: 0;
+  margin-bottom: 66px;
+  padding: 0;
 }
 
 .product-card {
