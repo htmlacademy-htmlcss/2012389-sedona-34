@@ -14,7 +14,6 @@
   font-display: swap;
 }
 
-
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -26,7 +25,6 @@
   overflow: hidden;
 }
 
-
 html {
   height: 100%;
 }
@@ -34,7 +32,6 @@ html {
 body {
   margin: 0;
   font-family: "PT Sans", "Arial", sans-serif;
-
   font-size: 22px;
   line-height: 26px;
   color: #333333;
@@ -55,7 +52,6 @@ body {
   margin-left: 70px;
   margin-right: 30px;
 }
-
 
 .navigation {
   display: flex;
@@ -151,7 +147,6 @@ body {
   list-style-type: none;
 }
 
-
 .advantages-item {
   display: flex;
   flex-direction: row;
@@ -178,7 +173,6 @@ body {
   background: rgba(131, 179, 211, 0.2);
 }
 
-
 .advantages-item-info {
   flex-basis: 400px;
 }
@@ -186,7 +180,6 @@ body {
 .advantages-content {
   background-color: #82b3d3;
   width: 400px;
-
 }
 
 .advantages-additional-content {
@@ -231,7 +224,6 @@ body {
   line-height: 21px;
   text-align: center;
   margin-bottom: 0;
-
 }
 
 .advantages-content-white .advantages-description {
@@ -313,16 +305,13 @@ body {
   background-color: #756157;
   text-decoration: none;
   width: 574px;
-
 }
 
 /*Секция подписки на новости*/
 
 .subscribe {
   padding: 94px 200px 94px 200px;
-
 }
-
 
 .subscribe-title {
   color: #000000;
@@ -375,7 +364,6 @@ body {
   height: 60px;
 }
 
-
 .field {
   font-family: "PT Sans";
   background-color: #f2f2f2;
@@ -398,7 +386,6 @@ body {
   padding: 40px 70px 30px 70px;
 }
 
-
 .footer-socials-list {
   display: flex;
   flex-wrap: wrap;
@@ -417,14 +404,12 @@ body {
   margin-right: 0;
 }
 
-
 .contacts-phone {
   color: #000000;
   font-size: 40px;
   line-height: 40px;
   text-decoration: none;
   width: 720px;
-
 }
 
 .htmlacademy-logo {
@@ -439,21 +424,17 @@ body {
   font-size: 60px;
   line-height: 78px;
   margin: 0;
-
 }
-
 
 .filter-background {
   background: url("../images/background/filter-background.jpg") no-repeat;
   padding: 35px 70px 70px;
-
 }
 
 .breadcrumbs {
   display: flex;
   list-style: none;
   gap: 10px;
-
 }
 
 .breadcrumbs-item {
@@ -566,12 +547,9 @@ body {
   background-color: transparent;
 }
 
-
 .catalog-filter-price-range {
   grid-column: 1 / -1;
 }
-
-
 
 .catalog-filter-buttons {
   display: flex;
@@ -591,7 +569,6 @@ body {
   border: none;
   display: block;
   padding: 14px 15px;
-
 }
 
 .button-reset {
@@ -625,8 +602,6 @@ body {
   line-height: 36px;
   text-transform: uppercase;
   padding: 0;
-
-
 }
 
 .select-control {
@@ -674,7 +649,6 @@ body {
 .product-card-image-link {
   grid-column: 1 / -1;
 }
-
 
 .product-card-title-link {
   text-decoration: none;
@@ -725,7 +699,6 @@ body {
   text-decoration: none;
   display: block;
   padding: 9px 15px 8px 15px;
-
 }
 
 .favorites-button {
