@@ -156,18 +156,28 @@ body {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-
+  justify-content: center;
 }
 
-.advantages-item .background-lightblue {
+.advantages-item.advantages-item-info.background-lightblue {
   padding: 103px 85px 102px 85px;
-
+  box-sizing: border-box;
 }
 
-.advantages-item .background-lighterblue {
+.advantages-item.advantages-item-info.background-lighterblue {
   padding: 103px 85px 102px 85px;
-
+  box-sizing: border-box;
 }
+
+
+.background-lightblue {
+  background: rgba(131, 179, 211, 0.12);
+}
+
+.background-lighterblue {
+  background: rgba(131, 179, 211, 0.2);
+}
+
 
 .advantages-item-info {
   flex-basis: 400px;
@@ -189,15 +199,6 @@ body {
   height: 400px;
 }
 
-.background-lightblue {
-  background: rgba(131, 179, 211, 0.12);
-
-}
-
-.background-lighterblue {
-  background: rgba(131, 179, 211, 0.2);
-}
-
 .advantages-title {
   color: #000000;
   font-weight: 700;
@@ -205,6 +206,7 @@ body {
   line-height: 28px;
   text-align: center;
   text-transform: uppercase;
+  margin-top: 0;
 }
 
 .advantages-content-white .advantages-title {
@@ -228,6 +230,8 @@ body {
   font-size: 18px;
   line-height: 21px;
   text-align: center;
+  margin-bottom: 0;
+
 }
 
 .advantages-content-white .advantages-description {
@@ -258,6 +262,7 @@ body {
   line-height: 28px;
   text-align: center;
   text-transform: uppercase;
+  margin-top: 0;
 }
 
 .recomendations-description {
@@ -266,6 +271,7 @@ body {
   font-size: 18px;
   line-height: 21px;
   text-align: center;
+  margin-bottom: 0;
 }
 
 /*Секция поиска в каталоге*/
@@ -293,6 +299,7 @@ body {
   text-align: center;
   white-space: nowrap;
   margin: 0;
+  margin-bottom: 56px;
 }
 
 .sedona-travel-link {
@@ -306,14 +313,16 @@ body {
   background-color: #756157;
   text-decoration: none;
   width: 574px;
-  margin-top: 56px;
+
 }
 
 /*Секция подписки на новости*/
 
-.subscribe-container {
+.subscribe {
   padding: 94px 200px 94px 200px;
+
 }
+
 
 .subscribe-title {
   color: #000000;
@@ -337,8 +346,6 @@ body {
 
 .subscribe-index {
   background: url("../images/background/subscribe-background.jpg") no-repeat;
-  width: 1200px;
-  height: 411px;
 
 }
 
@@ -348,6 +355,10 @@ body {
 
 .subscribe-index .subscribe-description {
   color: #ffffff;
+}
+
+.subscribe-form {
+  display: flex;
 }
 
 
@@ -384,7 +395,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 40px 70px 30px 70px;
+  padding: 40px 70px 30px 70px;
 }
 
 
@@ -392,7 +403,6 @@ body {
   display: flex;
   flex-wrap: wrap;
   list-style-type: none;
-
 }
 
 
@@ -428,12 +438,15 @@ body {
   font-weight: 700;
   font-size: 60px;
   line-height: 78px;
+  margin: 0;
+
 }
+
 
 .filter-background {
   background: url("../images/background/filter-background.jpg") no-repeat;
-  width: 1120px;
-  height: 403px;
+  padding: 35px 70px 70px;
+
 }
 
 .breadcrumbs {
@@ -448,6 +461,13 @@ body {
   font-size: 16px;
   line-height: 21px;
   color: #ffffff;
+  min-width: 73px;
+}
+
+.catalog-sedona {
+  box-sizing: border-box;
+  /*padding-left: 70px;
+  padding-bottom: 70px;*/
 }
 
 .catalog-filter {
@@ -457,10 +477,19 @@ body {
   width: 1060px;
 }
 
+
+.catalog-filter-list {
+  padding-left: 0;
+  margin: 0;
+}
+
 .catalog-filter-group {
   border: none;
-
+  padding: 0;
+  margin: 0;
+  margin-right: 70px;
 }
+
 
 .catalog-filter-title {
   color: #ffffff;
@@ -468,6 +497,8 @@ body {
   font-size: 20px;
   line-height: 26px;
   text-transform: capitalize;
+  padding-left: 0;
+  margin-bottom: 30px;
 }
 
 .catalog-filter-item {
@@ -475,19 +506,79 @@ body {
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
+  list-style-type: none;
+  margin: 0;
+  margin-bottom: 15px;
+}
+
+.catalog-filter-group-type {
+  border: none;
+  padding: 0;
+  margin: 0;
+  margin-right: 70px;
+}
+
+/*Фильтр цены*/
+
+.price-from {
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: right;
+}
+
+.price-to {
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: right;
 }
 
 .catalog-filter-price {
+  display: grid;
+  border: none;
+  margin: 0;
+  margin-right: 70px;
+  padding: 0;
+
+}
+
+.catalog-filter-price-title {
   color: #ffffff;
   font-weight: 700;
   font-size: 20px;
   line-height: 26px;
   text-transform: capitalize;
-  width: 288px;
+  margin-bottom: 34px;
 }
 
+.field-price {
+  width: 140px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #ffffff;
+  background-color: transparent;
+}
+
+
+.catalog-filter-price-range {
+  grid-column: 1 / -1;
+}
+
+
+
 .catalog-filter-buttons {
+  display: flex;
+  flex-direction: column;
   border: none;
+  padding: 0;
+  margin-top: 60px;
 }
 
 .button-submit {
@@ -497,6 +588,10 @@ body {
   font-size: 16px;
   line-height: 20px;
   background-color: #82b3d3;
+  border: none;
+  display: block;
+  padding: 14px 15px;
+
 }
 
 .button-reset {
@@ -505,15 +600,22 @@ body {
   font-size: 16px;
   line-height: 20px;
   background-color: transparent;
+  border: none;
+  display: block;
+  padding: 14px 15px;
 }
+
+/*Блок поиска*/
 
 .search-container {
   display: flex;
   flex-direction: row;
-  width: 1057px;
   justify-content: space-between;
-  margin-left: 72px;
-  margin-right: 71px;
+  flex-wrap: nowrap;
+  padding-left: 72px;
+  padding-right: 71px;
+  padding-bottom: 56px;
+  padding-top: 20px;
 }
 
 .search-result {
@@ -522,6 +624,8 @@ body {
   font-size: 30px;
   line-height: 36px;
   text-transform: uppercase;
+  padding: 0;
+  margin-left: 72px;
 
 }
 
@@ -531,22 +635,50 @@ body {
   font-size: 18px;
   line-height: 21px;
   width: 290px;
+  background: none;
+  border: 2px solid #E5E5E5;
+  padding: 0;
+  margin: 0;
 }
 
-.sedona-product-list {
+.type-of-view {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  list-style-type: none;
+  gap: 8px;
+  min-width: 48px;
+  margin: 0;
+  padding: 0;
+}
+
+/*Карточки продуктов*/
+
+.sedona-product-list {
+  display: grid;
+  grid-template-columns: repeat(3, 360px);
+  gap: 18px;
   list-style: none;
+  margin-top: 0;
+  margin-bottom: 66px;
+  box-sizing: border-box;
+  padding: 20px;
 }
 
 .product-card {
+  display: grid;
+  grid-template-columns: repeat(2, 140px);
+  gap: 20px;
   padding: 20px;
   margin-right: 18px;
 }
 
+.product-card-image-link {
+  grid-column: 1 / -1;
+}
+
+
 .product-card-title-link {
   text-decoration: none;
+  grid-column: 1 / -1;
 }
 
 .product-card-title {
@@ -554,6 +686,7 @@ body {
   font-size: 24px;
   line-height: 28px;
   color: #000000;
+  margin: 0;
 }
 
 .housing-hotel {
@@ -561,6 +694,7 @@ body {
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
+  margin: 0;
 }
 
 .product-card-price {
@@ -568,6 +702,7 @@ body {
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
+  margin: 0;
 }
 
 .rating {
@@ -575,6 +710,8 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
+  margin: 0;
+  padding: 9px 22px 8px 23px;
 }
 
 .product-about {
@@ -586,6 +723,9 @@ body {
   text-align: center;
   text-transform: uppercase;
   text-decoration: none;
+  display: block;
+  padding: 9px 15px 8px 15px;
+
 }
 
 .favorites-button {
@@ -597,6 +737,8 @@ body {
   line-height: 20px;
   text-align: center;
   text-transform: uppercase;
+  padding: 9px 14px 8px 15px;
+  border: 0;
 }
 
 .favorites-button-selected {
@@ -607,7 +749,8 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 1056px;
+  align-items: center;
+  padding: 30px 71px 25px 73px;
 }
 
 .pagination {
@@ -616,6 +759,8 @@ body {
   justify-content: flex-start;
   gap: 8px;
   list-style: none;
+  margin: 0;
+  padding-left: 0;
 }
 
 .pagination-link {
@@ -625,7 +770,12 @@ body {
   line-height: 36px;
   background-color: #82b3d3;
   text-decoration: none;
+  text-align: center;
   width: 60px;
+  height: 60px;
+  display: block;
+  box-sizing: border-box;
+  padding: 11px 12px;
 }
 
 .pagination-current {
@@ -635,6 +785,7 @@ body {
   line-height: 36px;
   background-color: #f2f2f2;
 }
+
 
 .search-results {
   color: #333333;
@@ -652,4 +803,6 @@ body {
   background-color: transparent;
   border: 2px solid #e5e5e5;
   border-radius: 4px;
+  width: 160px;
+  height: 49px;
 }

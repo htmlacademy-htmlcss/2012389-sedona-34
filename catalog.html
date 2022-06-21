@@ -80,7 +80,7 @@
                   </li>
                 </ul>
               </fieldset>
-              <fieldset class="catalog-filter-group">
+              <fieldset class="catalog-filter-group-type">
                 <legend class="catalog-filter-title">Тип Жилья:</legend>
                 <ul class="catalog-filter-list">
                   <li class="catalog-filter-item">
@@ -103,15 +103,16 @@
                   </li>
                 </ul>
               </fieldset>
-              <fieldset class="catalog-filter-group">
+              <fieldset class="catalog-filter-price">
+                <legend class="catalog-filter-price-title">Стоимость, ₽:</legend>
                 <div>
-                  <label for="price-min" class="catalog-filter-price">Стоимость, ₽:</label>
-                  <input class="field" type="text" placeholder="от" name="price-min" id="price-min" value="0">
-                  <label for="price-max" class="catalog-filter-price"></label>
-                  <input class="field" type="text" placeholder="до" name="price-max" id="price-max" value="9000">
+                  <input class="field-price" type="text" placeholder="0" name="price-min" id="price-min" value="0">
+                  <label for="price-min" class="price-from">от</label>
+                  <input class="field-price" type="text" placeholder="до" name="price-max" id="price-max" value="9000">
+                  <label for="price-max" class="price-to">до</label>
                 </div>
-                <div>
-                  <label for="priceoutput" class="catalog-filter-price-range"></label>
+                <div class="catalog-filter-price-range">
+                  <label for="priceoutput" class="filter-price-range"></label>
                   <input type="range" min="0" max="9000" step="1" name="priceoutput" id="priceoutput">
                 </div>
                 <div class="price-output">
@@ -163,6 +164,7 @@
             <p class="product-card-price">От 4000 ₽</p>
             <a class="product-about" href="#">Подробнее</a>
             <button type="button" class="button favorites-button"> В избранное</button>
+            <span class="rating-stars"></span>
             <p class="rating"> РЕЙТИНГ: 8,5</p>
           </li>
           <li class="product-card">
@@ -177,6 +179,7 @@
             <p class="product-card-price">От 5000 ₽</p>
             <a class="product-about" href="#">Подробнее</a>
             <button type="button" class="button favorites-button favorites-button-selected"> В избранном</button>
+            <span class="rating-stars"></span>
             <p class="rating"> РЕЙТИНГ: 9,2</p>
           </li>
           <li class="product-card">
@@ -191,6 +194,7 @@
             <p class="product-card-price">От 2500 ₽</p>
             <a class="product-about" href="#">Подробнее</a>
             <button type="button" class="button favorites-button"> В избранное</button>
+            <span class="rating-stars"></span>
             <p class="rating"> РЕЙТИНГ: 6,9</p>
           </li>
           <li class="product-card">
@@ -205,13 +209,14 @@
             <p class="product-card-price">От 1500 ₽</p>
             <a class="product-about" href="#">Подробнее</a>
             <button type="button" class="button favorites-button"> В избранное</button>
+            <span class="rating-stars"></span>
             <p class="rating"> РЕЙТИНГ: 5,0</p>
           </li>
         </ul>
         <div class="pagination-container">
           <ul class="pagination">
             <li class="pagination-item">
-              <a class="pagination-link pagination-prev pagination-disabled">
+              <a class="pagination-link pagination-prev visually-hidden">
                 <span class="visually-hidden">Предыдущая страница</span>
               </a>
             </li>
@@ -234,7 +239,7 @@
               <a class="pagination-link" href="#">10</a>
             </li>
             <li class="pagination-item">
-              <a class="pagination-link pagination-next" href="#">
+              <a class="pagination-link pagination-next visually-hidden" href="#">
                 <span class="visually-hidden">Следующая страница</span>
               </a>
             </li>
@@ -247,16 +252,14 @@
           </form>
         </div>
         <section class="subscribe">
-          <div class="subscribe-container">
-            <h2 class="subscribe-title">Подпишитесь на рассылку</h2>
-            <p class="subscribe-description">Только полезная информация и никакого спама, честное бойскаутское!</p>
-            <form class="subscribe-form" action="https://echo.htmlacademy.ru/" method="post">
-              <label for="subscribe-email"></label>
-              <input class="field" type="email" placeholder="Ваш e-mail" name="subscribe-email" id="subscribe-email"
-                required>
-              <button class="button subscribe-button" type="submit">Подписаться</button>
-            </form>
-          </div>
+          <h2 class="subscribe-title">Подпишитесь на рассылку</h2>
+          <p class="subscribe-description">Только полезная информация и никакого спама, честное бойскаутское!</p>
+          <form class="subscribe-form" action="https://echo.htmlacademy.ru/" method="post">
+            <label for="subscribe-email"></label>
+            <input class="field" type="email" placeholder="Ваш e-mail" name="subscribe-email" id="subscribe-email"
+              required>
+            <button class="button subscribe-button" type="submit">Подписаться</button>
+          </form>
         </section>
       </main>
       <footer class="page-footer">
