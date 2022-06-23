@@ -53,6 +53,8 @@ body {
   margin-right: 30px;
 }
 
+/*Навигация*/
+
 .navigation {
   display: flex;
   width: 1200px;
@@ -76,6 +78,7 @@ body {
 }
 
 .navigation-link {
+  position: relative;
   display: block;
   padding: 20px 17px;
   font-weight: 700;
@@ -86,11 +89,6 @@ body {
   text-decoration: none;
 }
 
-.navigation-user .navigation-link {
-  min-width: 12px;
-  min-height: 24px;
-
-}
 
 .navigation-link.navigation-link-special {
   color: #ffffff;
@@ -98,7 +96,29 @@ body {
   text-transform: uppercase;
   display: inline-block;
   padding: 9px 15px 8px 15px;
+  margin-right: 0;
+  margin-left: 20px;
 }
+
+.navigation-icon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+}
+
+.navigation-icon-search {
+  padding: 23px 12px 24px 12px;
+}
+
+.navigation-icon-favorite {
+  padding: 24px 12px 25px 12px;
+
+}
+
+/*Секция интро*/
 
 .main-container {
   flex-grow: 1;
