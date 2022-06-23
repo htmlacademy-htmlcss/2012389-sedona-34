@@ -115,7 +115,6 @@ body {
 
 .navigation-icon-favorite {
   padding: 24px 12px 25px 12px;
-
 }
 
 /*Секция интро*/
@@ -125,14 +124,20 @@ body {
 }
 
 .motto-background {
+  position: relative;
   background-image: url("../images/background/welcome-background.jpg");
   width: 1200px;
   height: 485px;
 }
 
 .motto-image {
-  display: block;
+  position: absolute;
+  left: 371px;
+  right: 371px;
+  top: 51px;
+  bottom: 82px;
   margin: 0 auto;
+
 }
 
 .sedona-intro {
