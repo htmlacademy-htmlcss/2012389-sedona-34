@@ -192,7 +192,6 @@ body {
   box-sizing: border-box;
 }
 
-
 .background-lightblue {
   background: rgba(131, 179, 211, 0.12);
 }
@@ -228,6 +227,7 @@ body {
   text-align: center;
   text-transform: uppercase;
   margin-top: 0;
+  margin-bottom: 30px;
 }
 
 .advantages-content-white .advantages-title {
@@ -240,6 +240,8 @@ body {
   font-size: 18px;
   line-height: 21px;
   text-align: center;
+  margin-top: 0;
+  margin-bottom: 30px;
 }
 
 .advantages-content-white .advantages-number {
@@ -252,6 +254,7 @@ body {
   line-height: 21px;
   text-align: center;
   margin-bottom: 0;
+  margin-top: 0;
 }
 
 .advantages-content-white .advantages-description {
@@ -275,6 +278,24 @@ body {
   padding: 80px 85px 81px 85px;
 }
 
+.house-icon {
+  margin: 0 auto;
+  margin-left: 78px;
+  margin-bottom: 30px;
+}
+
+.food-icon {
+  margin: 0 auto;
+  margin-left: 78px;
+  margin-bottom: 30px;
+}
+
+.gifts-icon {
+  margin: 0 auto;
+  margin-left: 78px;
+  margin-bottom: 30px;
+}
+
 .recomendations-title {
   color: #000000;
   font-weight: 700;
@@ -282,7 +303,8 @@ body {
   line-height: 28px;
   text-align: center;
   text-transform: uppercase;
-  margin-top: 0;
+  margin: 0 auto;
+  margin-bottom: 30px;
 }
 
 .recomendations-description {
