@@ -89,6 +89,16 @@ body {
   text-decoration: none;
 }
 
+.navigation-link-current::before {
+  position: absolute;
+  right: 20px;
+  bottom: 0;
+  left: 20px;
+  height: 2px;
+  background-color: #756257;
+  content: "";
+}
+
 .navigation-link.navigation-link-special {
   color: #ffffff;
   background-color: #756157;
@@ -97,6 +107,7 @@ body {
   padding: 9px 15px 8px 15px;
   margin-right: 0;
   margin-left: 20px;
+  border-radius: 4px;
 }
 
 .navigation-icon {
@@ -352,6 +363,7 @@ body {
   text-align: center;
   text-transform: uppercase;
   background-color: #756157;
+  border-radius: 4px;
   text-decoration: none;
   width: 544px;
   padding: 12px 15px;
@@ -385,7 +397,6 @@ body {
 
 .subscribe-index {
   background: url("../images/background/subscribe-background.jpg") no-repeat;
-
 }
 
 .subscribe-index .subscribe-title {
@@ -414,6 +425,7 @@ body {
   border: none;
   cursor: pointer;
   display: inline-block;
+  border-radius: 0 10px 10px 0;
 }
 
 .email-field {
@@ -428,6 +440,8 @@ body {
   padding: 0;
   padding-left: 22px;
   border: 0;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
 }
 
 /*Футер*/
@@ -676,6 +690,7 @@ body {
   padding: 14px 15px;
   border: none;
   cursor: pointer;
+  border-radius: 4px;
 }
 
 .button-reset {
@@ -832,6 +847,7 @@ body {
   text-decoration: none;
   display: block;
   padding: 9px 15px 8px 15px;
+  border-radius: 4px;
 }
 
 .favorites-button {
@@ -847,6 +863,7 @@ body {
   border: none;
   cursor: pointer;
   display: inline-block;
+  border-radius: 4px;
 }
 
 .favorites-button-selected {
@@ -855,7 +872,6 @@ body {
   cursor: pointer;
   display: inline-block;
 }
-
 
 .rating {
   color: #333333;
@@ -938,6 +954,7 @@ body {
   display: block;
   box-sizing: border-box;
   padding: 11px 12px;
+  border-radius: 4px;
 }
 
 .pagination-current {
