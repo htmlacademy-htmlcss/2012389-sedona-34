@@ -747,7 +747,6 @@ body {
   height: 48px;
 }
 
-
 .type-of-view-link {
   display: inline-block;
   border: 2px solid #E5E5E5;
@@ -755,7 +754,6 @@ body {
   width: 48px;
   height: 48px;
 }
-
 
 .type-of-view-slides {
   padding: 17px;
@@ -823,15 +821,6 @@ body {
   margin: 0;
 }
 
-.rating {
-  color: #333333;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 20px;
-  margin: 0;
-  padding: 9px 22px 8px 23px;
-}
-
 .product-about {
   background-color: #756157;
   color: #ffffff;
@@ -866,6 +855,57 @@ body {
   cursor: pointer;
   display: inline-block;
 }
+
+
+.rating {
+  color: #333333;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  margin: 0;
+  padding: 9px 22px 8px 23px;
+  background: #F2F2F2;
+  border-radius: 4px;
+}
+
+.rating-stars {
+  display: inline-block;
+  width: 140px;
+  padding: 10px 10px 10px;
+  padding-left: 0;
+}
+
+.rating-stars-four {
+  background-image: url("../images/icons/star-icon.svg");
+  background-repeat: repeat-x;
+  background-position: left;
+  margin: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 72px;
+}
+
+.rating-stars-three {
+  background-image: url("../images/icons/star-icon.svg");
+  background-repeat: repeat-x;
+  background-position: left;
+  margin: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 54px;
+}
+
+.rating-stars-two {
+  background-image: url("../images/icons/star-icon.svg");
+  background-repeat: repeat-x;
+  background-position: left;
+  margin: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 36px;
+}
+
+/*Пагинация*/
 
 .pagination-container {
   display: flex;
