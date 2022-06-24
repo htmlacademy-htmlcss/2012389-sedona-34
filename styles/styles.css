@@ -509,18 +509,45 @@ body {
   padding: 35px 70px 70px;
 }
 
+/*Хлебные крошки*/
+
 .breadcrumbs {
   display: flex;
   list-style: none;
-  gap: 10px;
+  padding-left: 0;
 }
 
 .breadcrumbs-item {
+  position: relative;
   font-weight: 400;
   font-size: 16px;
   line-height: 21px;
   color: #ffffff;
-  min-width: 73px;
+}
+
+.breadcrumbs-link {
+  padding-left: 15px;
+  padding-right: 10px;
+}
+
+.breadcrumbs-link.breadcrumbs-link-hotels {
+  background-image: url("../images/icons/right-arrow-icon.svg");
+  background-repeat: no-repeat;
+  background-size: 5px 8px;
+  background-position: left;
+}
+
+.breadcrumbs-icon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: 0;
+}
+
+.breadcrumbs-link .home-index-icon {
+  margin: auto 0;
 }
 
 .catalog-sedona {
@@ -535,7 +562,6 @@ body {
   justify-content: space-between;
   width: 1060px;
 }
-
 
 .catalog-filter-list {
   padding-left: 0;
