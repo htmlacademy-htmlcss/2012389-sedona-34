@@ -714,27 +714,59 @@ body {
   line-height: 36px;
   text-transform: uppercase;
   padding: 0;
+  padding-top: 10px;
 }
 
 .select-control {
   color: #333333;
-  font-weight: 400;
   font-size: 18px;
   line-height: 21px;
   width: 290px;
   background: none;
   border: 2px solid #E5E5E5;
-  padding: 0;
+  border-radius: 4px;
+  padding: 14px 20px;
   margin: 0;
 }
 
 .type-of-view {
+  position: relative;
   display: flex;
   list-style-type: none;
   gap: 8px;
   min-width: 48px;
   margin: 0;
   padding: 0;
+}
+
+.type-of-view-link.type-of-view-link-active {
+  display: inline-block;
+  border: 2px solid #000000;
+  border-radius: 4px;
+  width: 48px;
+  height: 48px;
+}
+
+
+.type-of-view-link {
+  display: inline-block;
+  border: 2px solid #E5E5E5;
+  border-radius: 4px;
+  width: 48px;
+  height: 48px;
+}
+
+
+.type-of-view-slides {
+  padding: 17px;
+}
+
+.type-of-view-table {
+  padding: 17px;
+}
+
+.type-of-view-list {
+  padding: 17px;
 }
 
 /*Карточки продуктов*/
