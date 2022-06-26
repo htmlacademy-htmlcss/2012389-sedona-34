@@ -110,6 +110,23 @@ body {
   border-radius: 4px;
 }
 
+.navigation-link.navigation-link-special:hover {
+  background: #615048;
+}
+
+.navigation-link.navigation-link-special:focus {
+  background: #615048;
+}
+
+.navigation-link.navigation-link-special:active {
+  background: #756157;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.navigation-link.navigation-link-special:disabled {
+  background: #E5E5E5;
+}
+
 .navigation-icon {
   position: absolute;
   top: 0;
@@ -147,7 +164,6 @@ body {
   top: 51px;
   bottom: 82px;
   margin: 0 auto;
-
 }
 
 .sedona-intro {
@@ -369,6 +385,23 @@ body {
   padding: 12px 15px;
 }
 
+.sedona-travel-link:hover {
+  background: #615048;
+}
+
+.sedona-travel-link:focus {
+  background: #615048;
+}
+
+.sedona-travel-link:active {
+  background: #756157;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.sedona-travel-link:disabled {
+  background: #E5E5E5;
+}
+
 /*Секция подписки на новости*/
 
 .subscribe {
@@ -426,6 +459,23 @@ body {
   cursor: pointer;
   display: inline-block;
   border-radius: 0 10px 10px 0;
+}
+
+.subscribe-button:hover {
+  background: #68A2CA;
+}
+
+.subscribe-button:focus {
+  background: #68A2CA;
+}
+
+.subscribe-button:active {
+  background: #82B3D3;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.subscribe-button:disabled {
+  background: #E5E5E5;
 }
 
 .email-field {
@@ -489,7 +539,7 @@ body {
   fill: #68A2CA;
 }
 
-.footer-socials-link:visited .footer-socials-icon {
+.footer-socials-link:active .footer-socials-icon {
   fill: rgba(104, 162, 202, 0.3);
 }
 
@@ -580,6 +630,18 @@ body {
   color: #ffffff;
 }
 
+.breadcrumbs-item:hover {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.breadcrumbs-item:focus {
+  color: #FFFFFF;
+}
+
+.breadcrumbs-item:active {
+  color: rgba(255, 255, 255, 0.3);
+}
+
 .breadcrumbs-link {
   padding-left: 15px;
   padding-right: 10px;
@@ -590,6 +652,18 @@ body {
   background-repeat: no-repeat;
   background-size: 5px 8px;
   background-position: left;
+}
+
+.breadcrumbs-link.breadcrumbs-link-hotels:hover {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.breadcrumbs-link.breadcrumbs-link-hotels:focus {
+  color: #FFFFFF;
+}
+
+.breadcrumbs-link.breadcrumbs-link-hotels:active {
+  color: rgba(255, 255, 255, 0.3);
 }
 
 .breadcrumbs-icon {
@@ -604,6 +678,20 @@ body {
 .breadcrumbs-link .home-index-icon {
   margin: auto 0;
 }
+
+.breadcrumbs-link .home-index-icon:hover {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.breadcrumbs-link .home-index-icon:focus {
+  color: #FFFFFF;
+}
+
+.breadcrumbs-link .home-index-icon:active {
+  color: rgba(255, 255, 255, 0.3);
+}
+
+/*Каталог гостиниц*/
 
 .catalog-sedona {
   box-sizing: border-box;
@@ -684,7 +772,6 @@ body {
   margin: 0;
   margin-right: 70px;
   padding: 0;
-
 }
 
 .catalog-filter-price-title {
@@ -732,6 +819,23 @@ body {
   border: none;
   cursor: pointer;
   border-radius: 4px;
+}
+
+.button-submit:hover {
+  background: #68A2CA;
+}
+
+.button-submit:focus {
+  background: #68A2CA;
+}
+
+.button-submit:active {
+  background: #82B3D3;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.button-submit:disabled {
+  background: #E5E5E5;
 }
 
 .button-reset {
@@ -785,6 +889,26 @@ body {
   margin: 0;
 }
 
+.select-control:hover {
+  border: 2px solid #68A2CA;
+  border-radius: 4px;
+}
+
+.select-control:focus {
+  border: 2px solid #68A2CA;
+  border-radius: 4px;
+}
+
+.select-control:active {
+  border: 2px solid #3F5E72;
+  border-radius: 4px;
+}
+
+.select-control:disabled {
+  border: 2px solid rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+}
+
 .type-of-view {
   position: relative;
   display: flex;
@@ -814,7 +938,6 @@ body {
 .type-of-view-link:active {
   border-color: #000000;
 }
-
 
 .type-of-view-link {
   display: inline-block;
@@ -904,6 +1027,23 @@ body {
   border-radius: 4px;
 }
 
+.product-about:hover {
+  background: #615048;
+}
+
+.product-about:focus {
+  background: #615048;
+}
+
+.product-about:hover {
+  background: #756157;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.product-about:disabled {
+  background: #E5E5E5;
+}
+
 .favorites-button {
   font-family: "PT Sans";
   background-color: #82b3d3;
@@ -920,11 +1060,45 @@ body {
   border-radius: 4px;
 }
 
+.favorites-button:hover {
+  background: #68A2CA;
+}
+
+.favorites-button:focus {
+  background: #68A2CA;
+}
+
+.favorites-button:active {
+  background: #82B3D3;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.favorites-button:disabled {
+  background: #E5E5E5;
+}
+
 .favorites-button-selected {
   background-color: #7db54f;
   border: none;
   cursor: pointer;
   display: inline-block;
+}
+
+.favorites-button-selected:hover {
+  background: #6C9E42;
+}
+
+.favorites-button-selected:focus {
+  background: #6C9E42;
+}
+
+.favorites-button-selected:hover {
+  background: #7DB54F;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.favorites-button-selected:disabled {
+  background: #E5E5E5;
 }
 
 .rating {
