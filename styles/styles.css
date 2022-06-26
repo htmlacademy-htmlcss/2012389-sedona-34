@@ -468,8 +468,8 @@ body {
   min-width: 24px;
   min-height: 24px;
   margin: 0 auto;
-
 }
+
 
 .footer-socials-icon {
   position: absolute;
@@ -478,6 +478,19 @@ body {
   top: 0;
   bottom: 0;
   margin: 0 auto;
+  fill: #83B3D3;
+}
+
+.footer-socials-link:hover .footer-socials-icon {
+  fill: #68A2CA;
+}
+
+.footer-socials-link:focus .footer-socials-icon {
+  fill: #68A2CA;
+}
+
+.footer-socials-link:visited .footer-socials-icon {
+  fill: rgba(104, 162, 202, 0.3);
 }
 
 .vk-icon {
@@ -504,8 +517,36 @@ body {
   width: 720px;
 }
 
+.contacts-phone:hover {
+  color: #756157;
+}
+
+.contacts-phone:focus {
+  color: #756157;
+}
+
+.contacts-phone:active {
+  color: rgba(117, 97, 87, 0.3);
+}
+
 .htmlacademy-logo {
   display: block;
+}
+
+.htmlacademy-link .academy-logo {
+  fill: #000000;
+}
+
+.htmlacademy-link:hover .academy-logo {
+  fill: #756157;
+}
+
+.htmlacademy-link:focus .academy-logo {
+  fill: #756157;
+}
+
+.htmlacademy-link:active .academy-logo {
+  fill: rgba(117, 97, 87, 0.3);
 }
 
 /* Каталог */
@@ -762,6 +803,19 @@ body {
   height: 48px;
 }
 
+.type-of-view-link:hover {
+  border-color: #000000;
+}
+
+.type-of-view-link:focus {
+  border-color: #68A2CA;
+}
+
+.type-of-view-link:active {
+  border-color: #000000;
+}
+
+
 .type-of-view-link {
   display: inline-block;
   border: 2px solid #E5E5E5;
@@ -957,12 +1011,39 @@ body {
   border-radius: 4px;
 }
 
+.pagination-link:hover {
+  background: #68A2CA;
+}
+
+.pagination-link:focus {
+  background: #68A2CA;
+}
+
+.pagination-link:active {
+  background: #82B3D3;
+}
+
 .pagination-current {
   color: #000000;
   font-weight: 700;
   font-size: 20px;
   line-height: 36px;
   background-color: #f2f2f2;
+}
+
+.pagination-current:hover {
+  background-color: #f2f2f2;
+  color: #000000;
+}
+
+.pagination-current:focus {
+  background-color: #f2f2f2;
+  color: #000000;
+}
+
+.pagination-current:active {
+  background-color: #f2f2f2;
+  color: #000000;
 }
 
 .search-results {
