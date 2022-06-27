@@ -146,6 +146,23 @@ body {
   padding: 24px 12px 25px 12px;
 }
 
+.circle {
+  display: inline-block;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 13px;
+  color: #ffffff;
+  text-align: center;
+  background: #7DB54F;
+  border-radius: 50%;
+  position: absolute;
+  width: 19px;
+  height: 19px;
+  left: 24px;
+  top: 8px;
+  right: 2px;
+}
+
 /*Секция интро*/
 
 .main-container {
