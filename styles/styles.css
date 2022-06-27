@@ -334,24 +334,6 @@ body {
   padding: 80px 85px 81px 85px;
 }
 
-.house-icon {
-  margin: 0 auto;
-  margin-left: 78px;
-  margin-bottom: 30px;
-}
-
-.food-icon {
-  margin: 0 auto;
-  margin-left: 78px;
-  margin-bottom: 30px;
-}
-
-.gifts-icon {
-  margin: 0 auto;
-  margin-left: 78px;
-  margin-bottom: 30px;
-}
-
 .recomendations-title {
   color: #000000;
   font-weight: 700;
@@ -370,6 +352,39 @@ body {
   line-height: 21px;
   text-align: center;
   margin-bottom: 0;
+}
+
+.house-icon {
+  background-image: url("../images/icons/house-icon.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 75px;
+  height: 72px;
+  margin-bottom: 30px;
+  margin-left: 78px;
+  margin-right: 78px;
+}
+
+.food-icon {
+  background-image: url("../images/icons/food-icon.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 75px;
+  height: 72px;
+  margin-bottom: 30px;
+  margin-left: 78px;
+  margin-right: 78px;
+}
+
+.gift-icon {
+  background-image: url("../images/icons/gift-icon.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 75px;
+  height: 76px;
+  margin-bottom: 30px;
+  margin-left: 78px;
+  margin-right: 78px;
 }
 
 /*Секция поиска в каталоге*/
