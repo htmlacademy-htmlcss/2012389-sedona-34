@@ -275,6 +275,10 @@ body {
   height: 400px;
 }
 
+.advantages-image.advantages-image-hill {
+  order: -1;
+}
+
 .advantages-title {
   color: #000000;
   font-weight: 700;
