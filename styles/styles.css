@@ -191,7 +191,7 @@ body {
   margin: 0;
 }
 
-.divider {
+.divider-index {
   display: inline-block;
   width: 1200px;
   height: 57px;
@@ -201,7 +201,6 @@ body {
   position: absolute;
   top: 500px;
 }
-
 
 /*Секция преимуществ*/
 
@@ -1163,6 +1162,17 @@ body {
 }
 
 /*Пагинация*/
+
+.divider-catalog {
+  display: inline-block;
+  width: 1055px;
+  margin: 0 auto;
+  border: 1px solid #E6E6E6;
+  position: absolute;
+  left: 73px;
+  right: 73px;
+
+}
 
 .pagination-container {
   display: flex;
