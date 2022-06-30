@@ -104,8 +104,12 @@ body {
 .navigation-link.navigation-link-special {
   color: #ffffff;
   background-color: #756157;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
   text-transform: uppercase;
   display: inline-block;
+
   padding: 9px 15px 8px 15px;
   margin-right: 0;
   margin-left: 20px;
@@ -171,10 +175,13 @@ body {
 
 .motto-background {
   position: relative;
-  background-image: url("../images/background/welcome-background.jpg");
   width: 1200px;
   height: 485px;
+  background-image: url("../images/divider-welcome-group.svg"), url("../images/background/welcome-background.jpg");
+  background-position: bottom, left top;
+  background-repeat: no-repeat, no-repeat;
 }
+
 
 .motto-image {
   position: absolute;
@@ -210,16 +217,6 @@ body {
   margin: 0;
 }
 
-.divider-index {
-  display: inline-block;
-  width: 1200px;
-  height: 57px;
-  margin: 0;
-  background-image: url("../images/divider-welcome-group.svg");
-  fill: #ffffff;
-  position: absolute;
-  top: 500px;
-}
 
 /*Секция преимуществ*/
 
@@ -336,6 +333,7 @@ body {
 .recomendations-item {
   flex-basis: 400px;
   padding: 80px 85px 81px 85px;
+  position: relative;
 }
 
 .recomendations-title {
@@ -347,6 +345,43 @@ body {
   text-transform: uppercase;
   margin: 0 auto;
   margin-bottom: 30px;
+  margin-top: 102px;
+}
+
+.recomendations-title.house-icon::before {
+  content: "";
+  background-image: url("../images/icons/house-icon.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  width: 75px;
+  height: 72px;
+  top: 80px;
+  left: 163px;
+}
+
+.recomendations-title.food-icon::before {
+  content: "";
+  background-image: url("../images/icons/food-icon.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  width: 74px;
+  height: 70px;
+  top: 81px;
+  left: 163px;
+}
+
+.recomendations-title.gift-icon::before {
+  content: "";
+  background-image: url("../images/icons/gift-icon.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  width: 64px;
+  height: 76px;
+  top: 78px;
+  left: 168px;
 }
 
 .recomendations-description {
@@ -356,39 +391,6 @@ body {
   line-height: 21px;
   text-align: center;
   margin-bottom: 0;
-}
-
-.house-icon {
-  background-image: url("../images/icons/house-icon.svg");
-  background-repeat: no-repeat;
-  background-position: center;
-  width: 75px;
-  height: 72px;
-  margin-bottom: 30px;
-  margin-left: 78px;
-  margin-right: 78px;
-}
-
-.food-icon {
-  background-image: url("../images/icons/food-icon.svg");
-  background-repeat: no-repeat;
-  background-position: center;
-  width: 75px;
-  height: 72px;
-  margin-bottom: 30px;
-  margin-left: 78px;
-  margin-right: 78px;
-}
-
-.gift-icon {
-  background-image: url("../images/icons/gift-icon.svg");
-  background-repeat: no-repeat;
-  background-position: center;
-  width: 75px;
-  height: 76px;
-  margin-bottom: 30px;
-  margin-left: 78px;
-  margin-right: 78px;
 }
 
 /*Секция поиска в каталоге*/
@@ -913,6 +915,7 @@ body {
   padding-right: 71px;
   padding-bottom: 56px;
   padding-top: 20px;
+  align-items: center;
 }
 
 .search-result {
@@ -922,7 +925,6 @@ body {
   line-height: 36px;
   text-transform: uppercase;
   padding: 0;
-  padding-top: 10px;
 }
 
 .select-control {
@@ -1200,7 +1202,21 @@ body {
 
 /*Пагинация*/
 
-.divider-catalog {
+.pagination-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 0;
+  padding-bottom: 4px;
+  padding-right: 71px;
+  padding-left: 73px;
+  margin-top: 30px;
+  position: relative;
+}
+
+.pagination-container.divider-catalog::before {
+  content: "";
   display: inline-block;
   width: 1055px;
   margin: 0 auto;
@@ -1208,14 +1224,7 @@ body {
   position: absolute;
   left: 73px;
   right: 73px;
-}
-
-.pagination-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  padding: 30px 71px 25px 73px;
+  bottom: 94px;
 }
 
 .pagination {
