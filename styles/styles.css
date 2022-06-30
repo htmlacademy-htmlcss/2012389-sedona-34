@@ -797,12 +797,13 @@ body {
 
 .control {
   position: relative;
+  margin-left: 40px;
 }
 
 .control-mark {
   position: absolute;
   top: 2px;
-  left: -39px;
+  left: -40px;
   width: 20px;
   height: 20px;
   background-color: #ffffff;
@@ -829,6 +830,58 @@ body {
   border: 3px solid #83B3D3;
 }
 
+.control-box {
+  position: absolute;
+  top: 2px;
+  left: -40px;
+  width: 20px;
+  height: 20px;
+  background-color: #ffffff;
+  border-radius: 4px;
+}
+
+.control-box:hover {
+  background: rgba(255, 255, 255, 0.6);
+  border-radius: 4px;
+}
+
+.control-box:focus {
+  background: rgba(255, 255, 255, 0.6);
+  border: 3px solid #83B3D3;
+  border-radius: 4px;
+}
+
+.control-box:active {
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+}
+
+.control-input[type="checkbox"]:checked + .control-box::before {
+  position: absolute;
+  top: 5px;
+  left: 4px;
+  right: 4px;
+  width: 12px;
+  height: 10px;
+  background-image: url("../images/icons/checkbox-arrow-icon.svg");
+  content: "";
+}
+
+.control-box:hover .control-input[type="checkbox"]:checked {
+  background: rgba(255, 255, 255, 0.6);
+  border-radius: 4px;
+}
+
+.control-box:focus .control-input[type="checkbox"]:checked {
+  background: rgba(255, 255, 255, 0.6);
+  border: 3px solid #83B3D3;
+  border-radius: 4px;
+}
+
+.control-box:active .control-input[type="checkbox"]:checked {
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+}
 
 /*Фильтр цены*/
 
@@ -886,7 +939,7 @@ body {
 }
 
 .range-toggle:focus {
-  order: 2px solid #83B3D3;
+  border: 2px solid #83B3D3;
   box-shadow: 0 7px 15px rgba(0, 0, 0, 0.4);
   border-radius: 5px;
 }
