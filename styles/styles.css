@@ -956,11 +956,29 @@ body {
 .range-wrapper-inputs {
   display: flex;
   justify-content: center;
-  width: 288px;
   border: 2px solid #FFFFFF;
   border-radius: 4px;
   margin-bottom: 32px;
   padding: 0;
+  box-sizing: border-box;
+}
+
+.range-wrapper-inputs:hover {
+  opacity: 0.6;
+  border: 2px solid #FFFFFF;
+  border-radius: 4px 0px 0px 4px;
+}
+
+.range-wrapper-inputs:focus {
+  border: 2px solid #FFFFFF;
+  box-shadow: 0px 0px 0px 3px #81B3D2;
+  border-radius: 4px 0px 0px 4px;
+}
+
+.range-wrapper-inputs:active {
+  background: #756257;
+  border: 2px solid #FFFFFF;
+  border-radius: 4px 0px 0px 4px;
 }
 
 .catalog-filter-label {
@@ -972,7 +990,7 @@ body {
   font-size: 18px;
   line-height: 21px;
   color: #FFFFFF;
-
+  box-sizing: border-box;
 }
 
 .field-price {
@@ -987,7 +1005,6 @@ body {
   appearance: textfield;
   padding-left: 14px;
 }
-
 
 .catalog-filter-buttons {
   display: flex;
@@ -1044,6 +1061,21 @@ body {
   padding-bottom: 0;
   border: none;
   cursor: pointer;
+}
+
+.button-reset:hover {
+  color: #FFFFFF;
+  opacity: 0.6;
+}
+
+.button-reset:focus {
+  border: 3px solid #83B3D3;
+  border-radius: 4px;
+}
+
+.button-reset:active {
+  color: #FFFFFF;
+  opacity: 0.3;
 }
 
 /*Блок поиска*/
