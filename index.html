@@ -213,40 +213,42 @@
             <fieldset class="date-search-group">
               <p class="field-group check-in-date">
                 <label class="form-label" for="check-in-date">
-                  Дата заезда:
+                  <span class="date-title">Дата заезда:</span>
                   <input class="date-field" type="text" id="check-in-date" name="check-date"
                     placeholder="27 апреля 2020">
                 </label>
               </p>
+              <p class="check-in-comment">Мы не можем отправить вас в прошлое.</p>
               <p class="field-group check-out-date">
                 <label class="form-label" for="check-out-date">
-                  Дата выезда:
+                  <span class="date-title">Дата выезда:</span>
                   <input class="date-field" type="text" id="check-out-date" name="check-date"
                     placeholder="1 сентября 2021">
                 </label>
               </p>
+              <p class="check-out-comment">На эти даты есть свободные номера. Пока есть.</p>
             </fieldset>
-            <fieldset class="people-count">
+            <fieldset class="people-count-group">
               <p class="field-group people-count-form">
-                <label class="form-label" for="adults">
-                  Взрослые:
+                <label class="form-count-label" for="adults">
+                  <span class="adults">Взрослые:</span>
                 </label>
                 <button class="button-count button-minus">
                   <span class="visually-hidden">Меньше</span>
                 </button>
-                <input type="number" id="adults" name="adults" placeholder="2">
+                <input class="count-adults" type="number" id="adults" name="adults" placeholder="2">
                 <button class="button-count button-plus">
                   <span class="visually-hidden">Больше</span>
                 </button>
               </p>
               <p class="field-group people-count-form">
-                <label class="form-label" for="children">
-                  Дети:
+                <label class="form-count-label" for="children">
+                  <span class="children">Дети:</span>
                 </label>
                 <button class="button-count button-minus">
                   <span class="visually-hidden">Меньше</span>
                 </button>
-                <input type="number" id="children" name="children" placeholder="1">
+                <input class="count-children" type="number" id="children" name="children" placeholder="1">
                 <button class="button-count button-plus">
                   <span class="visually-hidden">Больше</span>
                 </button>
