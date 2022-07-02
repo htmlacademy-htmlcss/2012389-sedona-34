@@ -214,16 +214,14 @@
               <p class="field-group check-in-date">
                 <label class="form-label" for="check-in-date">
                   <span class="date-title">Дата заезда:</span>
-                  <input class="date-field" type="text" id="check-in-date" name="check-date"
-                    placeholder="27 апреля 2020">
+                  <input class="date-field" type="text" id="check-in-date" name="check-date" value="27 апреля 2020">
                 </label>
               </p>
               <p class="check-in-comment">Мы не можем отправить вас в прошлое.</p>
               <p class="field-group check-out-date">
                 <label class="form-label" for="check-out-date">
                   <span class="date-title">Дата выезда:</span>
-                  <input class="date-field" type="text" id="check-out-date" name="check-date"
-                    placeholder="1 сентября 2021">
+                  <input class="date-field" type="text" id="check-out-date" name="check-date" value="1 сентября 2021">
                 </label>
               </p>
               <p class="check-out-comment">На эти даты есть свободные номера. Пока есть.</p>
@@ -236,19 +234,31 @@
                 <button class="button-count button-minus">
                   <span class="visually-hidden">Меньше</span>
                 </button>
-                <input class="count-adults" type="number" id="adults" name="adults" placeholder="2">
+                <input class="count-adults" type="text" id="adults" name="adults" value="2">
                 <button class="button-count button-plus">
                   <span class="visually-hidden">Больше</span>
                 </button>
               </p>
               <p class="field-group people-count-form">
-                <label class="form-count-label" for="children">
-                  <span class="children">Дети:</span>
-                </label>
+                <span class="form-count-label">
+                  <label class=" form-count-label" for="children">
+                    <span class="children">Дети:</span>
+                    <span class="tooltip">
+                      <button class="tooltip-toggle" type="button" aria-labelledby="tooltip-label">
+                        <svg class="tooltip-icon" width="1" height="9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M0 9h1V3H0v6ZM1 0H0v1h1V0Z" fill="#fff" />
+                        </svg>
+                      </button>
+                      <span class="tooltip-text" role="tooltip" id="tooltip-label">Укажите количество детей, которые
+                        будут с вами, возраст которых от 6 до
+                        18 лет. Дети до 6 лет размещаются бесплатно.</span>
+                    </span>
+                  </label>
+                </span>
                 <button class="button-count button-minus">
                   <span class="visually-hidden">Меньше</span>
                 </button>
-                <input class="count-children" type="number" id="children" name="children" placeholder="1">
+                <input class="count-children" type="text" id="children" name="children" value="1">
                 <button class="button-count button-plus">
                   <span class="visually-hidden">Больше</span>
                 </button>

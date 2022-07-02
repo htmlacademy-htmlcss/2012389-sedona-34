@@ -1604,9 +1604,6 @@ body {
   padding-left: 19px;
 }
 
-.date-field::placeholder {
-  color: #000000;
-}
 
 .check-in-comment {
   font-family: 'PT Sans';
@@ -1630,6 +1627,10 @@ body {
   margin-left: 155px;
   margin-top: 12px;
   margin-bottom: 12px;
+}
+
+.form-count-label {
+  margin-right: 18px;
 }
 
 .adults {
@@ -1666,6 +1667,8 @@ body {
   color: #000000;
   padding-top: 15px;
   padding-bottom: 14px;
+  box-sizing: border-box;
+  text-align: center;
 }
 
 .count-children {
@@ -1682,6 +1685,8 @@ body {
   color: #000000;
   padding-top: 15px;
   padding-bottom: 14px;
+  box-sizing: border-box;
+  text-align: center;
 }
 
 .button-count {
@@ -1696,10 +1701,9 @@ body {
   background: #F2F2F2;
   background-image: url("../images/icons/minus-icon.svg");
   background-repeat: no-repeat;
-  width: 50px;
-  height: 50px;
+  width: 20px;
+  height: 20px;
   opacity: 0.3;
-
 }
 
 .button-plus {
@@ -1707,9 +1711,70 @@ body {
   background: #F2F2F2;
   background-image: url("../images/icons/plus-icon.svg");
   background-repeat: no-repeat;
-  width: 50px;
-  height: 50px;
+  width: 20px;
+  height: 20px;
   opacity: 0.3;
+}
+
+.tooltip {
+  position: absolute;
+  margin-top: 12px;
+}
+
+.tooltip-toggle {
+  background: #83B3D3;
+  border-radius: 50%;
+  border-style: none;
+  padding: 0;
+  margin: 0;
+  display: block;
+  width: 25px;
+  height: 25px;
+  margin-bottom: 14px;
+}
+
+.tooltip-toggle:hover .tooltip-icon {
+  background: #68A2CA;
+}
+
+.tooltip-text {
+  background: #333333;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  color: #ffffff;
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  text-transform: none;
+  padding: 15px 18px 18px 22px;
+  width: 256px;
+  box-sizing: border-box;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+  display: none;
+}
+
+.tooltip-toggle:hover + .tooltip-text,
+.tooltip-toggle:focus + .tooltip-text {
+  display: block;
+}
+
+.tooltip-text::before {
+  content: '';
+  background-image: url("../images/icons/tooltip-arrow-icon.svg");
+  width: 19px;
+  height: 9px;
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .search-tour-link {
