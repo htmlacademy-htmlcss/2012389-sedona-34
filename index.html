@@ -217,6 +217,7 @@
                   <input class="date-field" type="text" id="check-in-date" name="check-date" value="27 апреля 2020"
                     placeholder="Укажите дату">
                 </label>
+                <button class="calendar" type="button"></button>
               </p>
               <p class="error-comment">Мы не можем отправить вас в прошлое.</p>
               <p class="field-group check-out-date">
@@ -225,6 +226,7 @@
                   <input class="date-field" type="text" id="check-out-date" name="check-date" value="1 сентября 2021"
                     placeholder="Укажите дату">
                 </label>
+                <button class="calendar" type="button"></button>
               </p>
               <p class="welldone-comment">На эти даты есть свободные номера. Пока есть.</p>
             </fieldset>
@@ -233,11 +235,11 @@
                 <label class="form-count-label" for="adults">
                   <span class="adults">Взрослые:</span>
                 </label>
-                <button class="button-count button-minus">
+                <button class="button-count button-minus" type="button">
                   <span class="visually-hidden">Меньше</span>
                 </button>
                 <input class="count-adults" type="text" id="adults" name="adults" value="2">
-                <button class="button-count button-plus">
+                <button class="button-count button-plus" type="button">
                   <span class="visually-hidden">Больше</span>
                 </button>
               </p>
@@ -257,16 +259,16 @@
                     </span>
                   </label>
                 </span>
-                <button class="button-count button-minus">
+                <button class="button-count button-minus" type="button">
                   <span class="visually-hidden">Меньше</span>
                 </button>
                 <input class="count-children" type="text" id="children" name="children" value="1">
-                <button class="button-count button-plus">
+                <button class="button-count button-plus" type="button">
                   <span class="visually-hidden">Больше</span>
                 </button>
               </p>
             </fieldset>
-            <a href="#" class="search-tour-link">Найти</a>
+            <button class="search-tour-button" type="submit">Найти</button>
           </form>
         </section>
       </div>
