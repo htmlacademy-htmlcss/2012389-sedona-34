@@ -204,7 +204,7 @@
 
     <div class="modal-container modal-container-close">
       <div class="modal modal-search">
-        <button class="modal-close-button">
+        <button class="modal-close-button" type="button">
           <svg class="close-button-icon" aria-hidden="true" focusable="false" width="15" height="14" viewBox="0 0 15 14"
             fill="none" xmlns="http://www.w3.org/2000/svg">
             <path
@@ -223,18 +223,22 @@
                   <input class="date-field" type="text" id="check-in-date" name="check-date" value="27 апреля 2020"
                     placeholder="Укажите дату">
                 </label>
-                <button class="calendar" type="button"></button>
+                <button class="calendar" type="button">
+                  <span class="visually-hidden">Открыть календарь</span>
+                </button>
               </p>
-              <p class="error-comment">Мы не можем отправить вас в прошлое.</p>
+              <p class="booking-comment error">Мы не можем отправить вас в прошлое.</p>
               <p class="field-group check-out-date">
                 <label class="form-label" for="check-out-date">
                   <span class="date-title">Дата выезда:</span>
                   <input class="date-field" type="text" id="check-out-date" name="check-date" value="1 сентября 2021"
                     placeholder="Укажите дату">
                 </label>
-                <button class="calendar" type="button"></button>
+                <button class="calendar" type="button">
+                  <span class="visually-hidden">Открыть календарь</span>
+                </button>
               </p>
-              <p class="welldone-comment">На эти даты есть свободные номера. Пока есть.</p>
+              <p class="booking-comment">На эти даты есть свободные номера. Пока есть.</p>
             </fieldset>
             <fieldset class="people-count-group">
               <div class="field-group people-count-form">
