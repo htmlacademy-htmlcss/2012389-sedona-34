@@ -151,7 +151,9 @@ body {
 }
 
 .circle {
-  display: inline-block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-weight: 400;
   font-size: 10px;
   line-height: 13px;
@@ -1528,39 +1530,32 @@ body {
   background: #F2F2F2;
   border-radius: 50%;
   border: none;
-  background-image: url("../images/icons/close-icon.svg");
-  background-repeat: no-repeat;
-  background-position: center;
   cursor: pointer;
+}
+
+.close-button-icon {
+  position: absolute;
+  width: 13px;
+  height: 13px;
+  top: 20px;
+  right: 20px;
 }
 
 .modal-close-button:hover {
   background: #E6E6E6;
-  background-image: url("../images/icons/close-icon.svg");
-  background-repeat: no-repeat;
-  background-position: center;
-  cursor: pointer;
 }
 
 .modal-close-button:focus {
   background: #E6E6E6;
-  border: 3px solid #83B3D3;
-  background-image: url("../images/icons/close-icon.svg");
-  background-repeat: no-repeat;
-  background-position: center;
-  cursor: pointer;
+  box-shadow: 0 0 0 3px #83B3D3;
 }
 
 .modal-close-button:active {
   background: #E6E6E6;
-  background-image: url("../images/icons/close-icon.svg");
-  background-repeat: no-repeat;
-  background-position: center;
-  cursor: pointer;
 }
 
-.modal-close-button:active path {
-  background-color: #000000;
+.close-button-icon:active path {
+  fill: #000000;
   opacity: 0.3;
 }
 
@@ -1586,15 +1581,16 @@ body {
   padding: 0;
 }
 
+.field-group.people-count-form {
+  display: flex;
+  align-items: center;
+}
+
 .people-count-group {
   border: none;
   margin: 0;
   padding-left: 0;
   padding-top: 0;
-  /* display: grid;
-  grid-template-columns: 280px 230px;
-  gap: 56px; */
-
   display: flex;
   align-items: center;
 }
@@ -1676,6 +1672,10 @@ body {
   border-style: none;
 }
 
+.calendar:hover {
+  background-color: transparent;
+}
+
 .error-comment {
   font-family: 'PT Sans';
   font-style: normal;
@@ -1703,7 +1703,6 @@ body {
 .people-count-group {
   padding-bottom: 0;
 }
-
 
 .adults {
   font-family: 'PT Sans';
@@ -1779,17 +1778,18 @@ body {
   position: relative;
 }
 
+
 .button-minus {
   position: absolute;
   top: 10px;
   left: 10px;
   background: #F2F2F2;
-  background-image: url("../images/icons/minus-icon.svg");
-  background-repeat: no-repeat;
-  background-position: center;
   width: 30px;
   height: 30px;
   opacity: 0.3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .button-plus {
@@ -1797,12 +1797,42 @@ body {
   top: 10px;
   right: 10px;
   background: #F2F2F2;
-  background-image: url("../images/icons/plus-icon.svg");
-  background-repeat: no-repeat;
-  background-position: center;
   width: 30px;
   height: 30px;
   opacity: 0.3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button-plus:hover {
+  opacity: 1;
+}
+
+.button-minus:hover {
+  opacity: 1;
+}
+
+.button-plus:focus {
+  opacity: 1;
+  border: 3px solid #83B3D3;
+  border-radius: 4px;
+}
+
+.button-minus:focus {
+  opacity: 1;
+  border: 3px solid #83B3D3;
+  border-radius: 4px;
+}
+
+.button-plus:active {
+  opacity: 0.3;
+  border-style: none;
+}
+
+.button-minus:active {
+  opacity: 0.3;
+  border-style: none;
 }
 
 .form-count-label {
