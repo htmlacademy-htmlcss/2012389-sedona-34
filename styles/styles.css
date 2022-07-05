@@ -1557,7 +1557,6 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   cursor: pointer;
-
 }
 
 .modal-close-button:active path {
@@ -1592,9 +1591,12 @@ body {
   margin: 0;
   padding-left: 0;
   padding-top: 0;
-  display: grid;
+  /* display: grid;
   grid-template-columns: 280px 230px;
-  gap: 56px;
+  gap: 56px; */
+
+  display: flex;
+  align-items: center;
 }
 
 .form-label {
@@ -1702,9 +1704,6 @@ body {
   padding-bottom: 0;
 }
 
-.form-count-label {
-  margin-right: 18px;
-}
 
 .adults {
   font-family: 'PT Sans';
@@ -1714,6 +1713,7 @@ body {
   line-height: 26px;
   text-transform: capitalize;
   color: #000000;
+  margin-right: 64px;
 }
 
 .children {
@@ -1724,6 +1724,7 @@ body {
   line-height: 26px;
   text-transform: capitalize;
   color: #000000;
+  margin-right: 44px;
 }
 
 .count-adults {
@@ -1769,13 +1770,19 @@ body {
   height: 50px;
 }
 
-.field-group.people-count-form {
+.adults-container {
+  position: relative;
+  margin-right: 56px;
+}
+
+.children-container {
   position: relative;
 }
 
 .button-minus {
   position: absolute;
   top: 10px;
+  left: 10px;
   background: #F2F2F2;
   background-image: url("../images/icons/minus-icon.svg");
   background-repeat: no-repeat;
@@ -1788,6 +1795,7 @@ body {
 .button-plus {
   position: absolute;
   top: 10px;
+  right: 10px;
   background: #F2F2F2;
   background-image: url("../images/icons/plus-icon.svg");
   background-repeat: no-repeat;
@@ -1797,9 +1805,14 @@ body {
   opacity: 0.3;
 }
 
+.form-count-label {
+  position: relative;
+}
+
 .tooltip {
   position: absolute;
-  margin-top: 12px;
+  right: 10px;
+  z-index: 1;
 }
 
 .tooltip-toggle {
