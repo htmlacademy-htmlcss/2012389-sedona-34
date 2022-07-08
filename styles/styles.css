@@ -45,6 +45,10 @@ body {
   background-color: #ffffff;
 }
 
+.page-header {
+  z-index: 1;
+}
+
 .page-container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -57,6 +61,7 @@ body {
   background-color: #ffffff;
   margin: 0 auto;
   width: 1200px;
+  position: relative;
 }
 
 .sedona-logo {
@@ -91,6 +96,7 @@ body {
   align-items: center;
   font-size: 20px;
   line-height: 26px;
+  padding-bottom: 1px;
 }
 
 .navigation-user {
@@ -106,7 +112,6 @@ body {
   color: #000000;
   text-align: center;
   text-transform: capitalize;
-  background-color: #ffffff;
   text-decoration: none;
 }
 
@@ -131,8 +136,14 @@ body {
 
   padding: 9px 15px 8px 15px;
   margin-right: 0;
-  margin-left: 20px;
   border-radius: 4px;
+  width: 160px;
+  box-sizing: border-box;
+
+}
+
+.navigation-item .navigation-link.navigation-link-special {
+  margin-left: 20px;
 }
 
 .navigation-link.navigation-link-special:hover {
@@ -200,6 +211,7 @@ body {
   -webkit-box-flex: 1;
   -ms-flex-positive: 1;
   flex-grow: 1;
+  margin-top: -5px;
 }
 
 .motto-background {
@@ -312,7 +324,7 @@ body {
 
 .advantages-image {
   width: 800px;
-  height: 400px;
+  height: 384px;
 }
 
 .advantages-image.advantages-image-hill {
@@ -384,7 +396,8 @@ body {
 
 .recomendations-item {
   -ms-flex-preferred-size: 400px;
-  flex-basis: 400px;
+  width: 400px;
+  box-sizing: border-box;
   padding: 80px 85px 81px 85px;
   position: relative;
 }
@@ -530,6 +543,7 @@ body {
   font-size: 22px;
   line-height: 26px;
   text-align: center;
+  margin-bottom: 46px;
 }
 
 .subscribe-index {
@@ -623,7 +637,7 @@ body {
   flex-wrap: wrap;
   list-style-type: none;
   margin: 0 auto;
-
+  padding-left: 0;
   gap: 10px;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -635,6 +649,9 @@ body {
   min-width: 24px;
   min-height: 24px;
   margin: 0 auto;
+
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .footer-socials-icon {
@@ -1208,7 +1225,7 @@ body {
   flex-wrap: nowrap;
   padding-left: 72px;
   padding-right: 71px;
-  padding-bottom: 56px;
+  padding-bottom: 16px;
   padding-top: 20px;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -1323,6 +1340,7 @@ body {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   padding: 20px;
+  padding-left: 70px;
 }
 
 .product-card {
@@ -2109,6 +2127,6 @@ body {
   color: rgb(255, 255, 255, 0.3)
 }
 
-/* .modal-container-close {
+.modal-container-close {
   display: none;
-} */
+}
