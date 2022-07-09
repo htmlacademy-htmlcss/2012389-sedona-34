@@ -105,8 +105,9 @@ body {
 }
 
 .navigation-link {
+  display: flex;
+  align-items: center;
   position: relative;
-  display: block;
   padding: 20px 17px;
   font-weight: 700;
   color: #000000;
@@ -118,7 +119,7 @@ body {
 .navigation-link-current::before {
   position: absolute;
   right: 20px;
-  bottom: 0;
+  bottom: 3px;
   left: 20px;
   height: 2px;
   background-color: #756257;
@@ -139,12 +140,17 @@ body {
   border-radius: 4px;
   width: 160px;
   box-sizing: border-box;
-
-}
-
-.navigation-item .navigation-link.navigation-link-special {
   margin-left: 20px;
+  position: absolute;
+  left: 20px;
 }
+
+.navigation-item {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
 
 .navigation-link.navigation-link-special:hover {
   background: #615048;
@@ -178,6 +184,7 @@ body {
 
 .navigation-icon-favorite {
   padding: 24px 12px 25px 12px;
+  left: 8px;
 }
 
 .circle {
@@ -200,8 +207,8 @@ body {
   position: absolute;
   width: 19px;
   height: 19px;
-  left: 24px;
-  top: 8px;
+  left: 30px;
+  top: 2px;
   right: 2px;
 }
 
