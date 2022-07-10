@@ -34,6 +34,7 @@
 
 html {
   height: 100%;
+
 }
 
 body {
@@ -43,6 +44,7 @@ body {
   line-height: 26px;
   color: #333333;
   background-color: #ffffff;
+  background: #F2F2F2;
 }
 
 .page-header {
@@ -50,6 +52,7 @@ body {
 }
 
 .page-container {
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1803,6 +1806,7 @@ body {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  justify-content: space-between;
 }
 
 .form-label {
@@ -1903,7 +1907,7 @@ body {
   line-height: 21px;
   color: #333333;
   margin-left: 155px;
-  margin-top: 12px;
+  margin-top: 8px;
   margin-bottom: 12px;
 }
 
@@ -2069,7 +2073,7 @@ body {
 
 .tooltip {
   position: absolute;
-  right: 10px;
+  right: 12px;
   z-index: 1;
 }
 
