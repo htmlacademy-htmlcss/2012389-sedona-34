@@ -507,6 +507,8 @@ body {
   text-decoration: none;
   width: 544px;
   padding: 12px 15px;
+  margin-left: 9px;
+  margin-right: 9px;
 }
 
 .sedona-travel-link:hover {
@@ -720,7 +722,13 @@ body {
 }
 
 .htmlacademy-logo {
-  display: block;
+  display: flex;
+  align-items: center;
+}
+
+.htmlacademy-link {
+  display: flex;
+  align-items: center;
 }
 
 .htmlacademy-link path {
@@ -762,6 +770,8 @@ body {
   display: flex;
   list-style: none;
   padding-left: 0;
+  margin-top: 10px;
+  margin-bottom: 40px;
 }
 
 .breadcrumbs-item {
@@ -848,9 +858,7 @@ body {
   -webkit-box-direction: normal;
   -ms-flex-direction: row;
   flex-direction: row;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+
   width: 1060px;
 }
 
@@ -890,7 +898,7 @@ body {
   border: none;
   padding: 0;
   margin: 0;
-  margin-right: 70px;
+  margin-right: 175px;
 }
 
 .control {
@@ -988,8 +996,8 @@ body {
   display: grid;
   border: none;
   margin: 0;
-  margin-right: 70px;
   padding: 0;
+  margin-right: 70px;
 }
 
 .catalog-filter-price-title {
@@ -1151,6 +1159,8 @@ body {
   border: none;
   cursor: pointer;
   width: 130px;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .button-submit {
@@ -1165,6 +1175,7 @@ body {
   border: none;
   cursor: pointer;
   border-radius: 4px;
+  width: 160px;
 }
 
 .button-submit:hover {
@@ -1198,6 +1209,7 @@ body {
   padding-bottom: 0;
   border: none;
   cursor: pointer;
+
 }
 
 .button-reset:hover {
@@ -1237,6 +1249,9 @@ body {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  position: relative;
 }
 
 .search-result {
@@ -1259,6 +1274,9 @@ body {
   padding: 14px 20px;
   margin: 0;
   background-color: #ffffff;
+  box-sizing: border-box;
+  position: absolute;
+  right: 310px;
 }
 
 .select-control:hover {
@@ -1339,15 +1357,18 @@ body {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 360px 18px 360px 18px 360px;
-  grid-template-columns: repeat(3, 360px);
-  gap: 18px;
+  grid-template-columns: repeat(3, 340px);
+  column-gap: 18px;
+  row-gap: 0;
   list-style: none;
   margin-top: 0;
-  margin-bottom: 66px;
+  margin-bottom: 0;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  padding: 20px;
-  padding-left: 70px;
+  padding-top: 0;
+  padding-left: 73px;
+  padding-right: 71px;
+  padding-bottom: 66px;
 }
 
 .product-card {
@@ -1355,13 +1376,15 @@ body {
   display: grid;
   -ms-grid-columns: 140px 20px 140px;
   grid-template-columns: repeat(2, 140px);
-  gap: 20px;
+  column-gap: 20px;
+  row-gap: 16px;
   padding: 20px;
-  margin-right: 18px;
+  box-sizing: border-box;
 }
 
 .product-card-image-link {
   grid-column: 1 / -1;
+  margin-bottom: -7px;
 }
 
 .product-card-title-link {
@@ -1546,10 +1569,10 @@ body {
   -ms-flex-align: center;
   align-items: center;
   padding-top: 0;
-  padding-bottom: 4px;
+  padding-bottom: 25px;
   padding-right: 71px;
   padding-left: 73px;
-  margin-top: 30px;
+  margin-top: 20px;
   position: relative;
 }
 
@@ -1562,7 +1585,7 @@ body {
   position: absolute;
   left: 73px;
   right: 73px;
-  bottom: 94px;
+  bottom: 110px;
 }
 
 .pagination {
@@ -1576,10 +1599,14 @@ body {
   -webkit-box-pack: start;
   -ms-flex-pack: start;
   justify-content: flex-start;
-  gap: 8px;
+
   list-style: none;
   margin: 0;
   padding-left: 0;
+}
+
+.pagination-item {
+  margin-right: 8px;
 }
 
 .pagination-link {
@@ -1597,6 +1624,11 @@ body {
   box-sizing: border-box;
   padding: 11px 12px;
   border-radius: 4px;
+}
+
+.pagination-link:first-child {
+  margin-left: -8px;
+  margin-right: 8px;
 }
 
 .pagination-link:hover {
@@ -1641,6 +1673,10 @@ body {
   line-height: 21px;
 }
 
+.search-results-label {
+  margin-right: 51px;
+}
+
 .results-on-page {
   color: #333333;
   font-family: "PT Sans";
@@ -1652,6 +1688,7 @@ body {
   border-radius: 4px;
   width: 160px;
   height: 49px;
+  padding: 14px;
 }
 
 /*Модальное окно*/
@@ -2134,6 +2171,7 @@ body {
   color: rgb(255, 255, 255, 0.3)
 }
 
-.modal-container-close {
+
+/* .modal-container-close {
   display: none;
-}
+} */
