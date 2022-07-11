@@ -638,7 +638,7 @@ body {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  padding: 40px 70px 30px 70px;
+  padding: 45px 70px 30px 70px;
 }
 
 .footer-socials-list {
@@ -664,6 +664,16 @@ body {
 
   padding-left: 10px;
   padding-right: 10px;
+}
+
+.footer-socials-icon.youtube-icon {
+  position: absolute;
+  right: 17px;
+}
+
+.footer-socials-icon.telegram-icon {
+  position: absolute;
+  right: 15px;
 }
 
 .footer-socials-icon {
@@ -874,7 +884,7 @@ body {
   border: none;
   padding: 0;
   margin: 0;
-  margin-right: 70px;
+  margin-right: 65px;
 }
 
 .catalog-filter-title {
@@ -901,7 +911,7 @@ body {
   border: none;
   padding: 0;
   margin: 0;
-  margin-right: 175px;
+  margin-right: 180px;
 }
 
 .control {
@@ -1274,7 +1284,7 @@ body {
   background: none;
   border: 2px solid #E5E5E5;
   border-radius: 4px;
-  padding: 14px 20px;
+  padding: 11px 20px;
   margin: 0;
   background-color: #ffffff;
   box-sizing: border-box;
@@ -1314,6 +1324,19 @@ body {
   padding: 0;
 }
 
+.type-of-view-link {
+  box-sizing: border-box;
+  position: relative;
+}
+
+.type-of-view-icon {
+  position: absolute;
+  left: 15px;
+  right: 17px;
+  top: 17px;
+  bottom: 17px;
+}
+
 .type-of-view-link.type-of-view-link-active {
   display: inline-block;
   border: 2px solid #000000;
@@ -1342,17 +1365,6 @@ body {
   height: 48px;
 }
 
-.type-of-view-slides {
-  padding: 17px;
-}
-
-.type-of-view-table {
-  padding: 17px;
-}
-
-.type-of-view-list {
-  padding: 17px;
-}
 
 /*Карточки продуктов*/
 
@@ -1575,7 +1587,7 @@ body {
   padding-bottom: 25px;
   padding-right: 71px;
   padding-left: 73px;
-  margin-top: 20px;
+  margin-top: 22px;
   position: relative;
 }
 
@@ -1589,6 +1601,7 @@ body {
   left: 73px;
   right: 73px;
   bottom: 110px;
+
 }
 
 .pagination {
@@ -2176,6 +2189,6 @@ body {
 }
 
 
-/* .modal-container-close {
+.modal-container-close {
   display: none;
-} */
+}
