@@ -211,6 +211,7 @@ body {
   background-image: url("../images/divider-welcome-group.svg"), url("../images/background/welcome-background.jpg");
   background-position: bottom, left top;
   background-repeat: no-repeat, no-repeat;
+  background-color: #333333;
 }
 
 
@@ -336,6 +337,7 @@ body {
 }
 
 .advantages-description {
+  color: #333333;
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
@@ -516,6 +518,7 @@ body {
 
 .subscribe-index {
   background: url("../images/background/subscribe-background.jpg") no-repeat;
+  background-color: #333333;
 }
 
 .subscribe-index .subscribe-title {
@@ -716,6 +719,7 @@ body {
 .filter-background {
   background: url("../images/background/filter-background.jpg") no-repeat;
   padding: 35px 70px 70px;
+  background-color: #333333;
 }
 
 /*Хлебные крошки*/
@@ -1089,6 +1093,7 @@ body {
 }
 
 .button-submit {
+  font-family: "PT Sans", "Arial", sans-serif;
   color: #ffffff;
   text-transform: uppercase;
   font-weight: 700;
@@ -1121,6 +1126,7 @@ body {
 }
 
 .button-reset {
+  font-family: "PT Sans", "Arial", sans-serif;
   color: #ffffff;
   font-weight: 400;
   font-size: 16px;
