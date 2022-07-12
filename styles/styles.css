@@ -68,6 +68,19 @@ body {
   margin-right: 30px;
 }
 
+.index-link:hover {
+  color: #68A2CA;
+}
+
+.index-link:focus {
+  outline: none;
+  box-shadow: 0 0 5px #68A2CA;
+}
+
+.index-link:active {
+  color: rgba(117, 97, 87, 0.3);
+}
+
 /*Навигация*/
 
 .navigation {
@@ -117,6 +130,19 @@ body {
   content: "";
 }
 
+.navigation-link:hover {
+  color: #68A2CA;
+}
+
+.navigation-link:focus {
+  outline: none;
+  box-shadow: 0 0 5px #68A2CA;
+}
+
+.navigation-link:active {
+  color: rgba(117, 97, 87, 0.3);
+}
+
 .navigation-link.navigation-link-special {
   color: #ffffff;
   background-color: #756157;
@@ -164,7 +190,6 @@ body {
 }
 
 .navigation-icon {
-
   margin: auto;
 }
 
@@ -573,6 +598,11 @@ body {
   border-bottom-left-radius: 10px;
 }
 
+.email-field:focus {
+  outline: none;
+  box-shadow: 0 0 5px #68A2CA;
+}
+
 /*Футер*/
 
 .page-footer {
@@ -691,7 +721,9 @@ body {
 .htmlacademy-link:focus path {
   fill: #756157;
   outline: none;
+  box-shadow: 0 0 5px #68a2ca;
 }
+
 
 .htmlacademy-link:active path {
   fill: rgba(117, 97, 87, 0.3);
@@ -868,11 +900,6 @@ body {
   border-radius: 10px;
 }
 
-.control:focus .control-mark {
-  border: 3px solid #83B3D3;
-  outline: none;
-}
-
 .control-input[type="radio"]:checked + .control-mark::before {
   position: absolute;
   top: 5px;
@@ -885,9 +912,15 @@ body {
   content: "";
 }
 
-.control:focus .control-input[type="radio"]:checked {
-  border: 3px solid #83B3D3;
+.control-mark:focus {
   outline: none;
+  box-shadow: 0 0 0 3px inset #83B3D3;
+
+}
+
+.control-mark:focus .control-input[type="radio"]:checked {
+  outline: none;
+  box-shadow: 0 0 0 3px #83B3D3;
 }
 
 .control-box {
@@ -907,7 +940,7 @@ body {
 
 .control-box:focus {
   background: rgba(255, 255, 255, 0.6);
-  border: 3px solid #83B3D3;
+  box-shadow: 0 0 0 3px #83B3D3;
   border-radius: 4px;
   outline: none;
 }
@@ -935,7 +968,7 @@ body {
 
 .control-box:focus .control-input[type="checkbox"]:checked {
   background: rgba(255, 255, 255, 0.6);
-  border: 3px solid #83B3D3;
+  box-shadow: 0 0 0 3px #83B3D3;
   border-radius: 4px;
   outline: none;
 }
@@ -1321,6 +1354,24 @@ body {
 .product-card-title-link {
   text-decoration: none;
   grid-column: 1 / -1;
+}
+
+.product-card-title-link .product-card-title:hover {
+  color: #68A2CA;
+}
+
+.product-card-title-link .product-card-title:focus {
+  outline: none;
+  box-shadow: 0 0 5px #68A2CA;
+}
+
+.product-card-title-link:focus {
+  outline: none;
+  box-shadow: 0 0 5px #68A2CA;
+}
+
+.product-card-title-link .product-card-title:active {
+  color: #756157;
 }
 
 .product-card-title {
@@ -2081,6 +2132,6 @@ body {
 }
 
 
-.modal-container-close {
+/* .modal-container-close {
   display: none;
-}
+} */
