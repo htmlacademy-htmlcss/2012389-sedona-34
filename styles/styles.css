@@ -534,7 +534,7 @@ body {
 }
 
 .subscribe-button {
-  font-family: "PT Sans";
+  font-family: "PT Sans", "Arial", sans-serif;
   color: #ffffff;
   font-weight: 700;
   font-size: 20px;
@@ -568,7 +568,7 @@ body {
 }
 
 .email-field {
-  font-family: "PT Sans";
+  font-family: "PT Sans", "Arial", sans-serif;
   background-color: #f2f2f2;
   font-weight: 400;
   font-size: 18px;
@@ -718,7 +718,7 @@ body {
 
 .filter-background {
   background: url("../images/background/filter-background.jpg") no-repeat;
-  padding: 35px 70px 70px;
+  padding: 35px 70px 50px;
   background-color: #333333;
 }
 
@@ -1168,9 +1168,9 @@ body {
   padding-left: 72px;
   padding-right: 71px;
   padding-bottom: 16px;
-  padding-top: 20px;
+  padding-top: 25px;
   align-items: center;
-  margin-top: 20px;
+  margin-top: 35px;
   margin-bottom: 40px;
   position: relative;
 }
@@ -1364,7 +1364,7 @@ body {
 }
 
 .favorites-button {
-  font-family: "PT Sans";
+  font-family: "PT Sans", "Arial", sans-serif;
   background-color: #82b3d3;
   color: #ffffff;
   font-weight: 700;
@@ -1579,7 +1579,7 @@ body {
 
 .results-on-page {
   color: #333333;
-  font-family: "PT Sans";
+  font-family: "PT Sans", "Arial", sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
@@ -1658,7 +1658,7 @@ body {
 
 .modal-title {
   margin: 0;
-  font-family: 'PT Sans';
+  font-family: "PT Sans", "Arial", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 30px;
@@ -1701,7 +1701,7 @@ body {
 }
 
 .date-title {
-  font-family: 'PT Sans';
+  font-family: "PT Sans", "Arial", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
@@ -1718,7 +1718,7 @@ body {
   border-radius: 4px;
   width: 420px;
   height: 50px;
-  font-family: 'PT Sans';
+  font-family: "PT Sans", "Arial", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -1775,7 +1775,7 @@ body {
 }
 
 .booking-comment {
-  font-family: 'PT Sans';
+  font-family: "PT Sans", "Arial", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -1795,7 +1795,7 @@ body {
 }
 
 .adults {
-  font-family: 'PT Sans';
+  font-family: "PT Sans", "Arial", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
@@ -1806,7 +1806,7 @@ body {
 }
 
 .children {
-  font-family: 'PT Sans';
+  font-family: "PT Sans", "Arial", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
@@ -1822,7 +1822,7 @@ body {
   background: #F2F2F2;
   border-radius: 4px;
   border-style: none;
-  font-family: 'PT Sans';
+  font-family: "PT Sans", "Arial", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -1842,7 +1842,7 @@ body {
   background: #F2F2F2;
   border-radius: 4px;
   border-style: none;
-  font-family: 'PT Sans';
+  font-family: "PT Sans", "Arial", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -1959,7 +1959,7 @@ body {
   box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
   border-radius: 10px;
   color: #ffffff;
-  font-family: 'PT Sans';
+  font-family: "PT Sans", "Arial", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -1999,7 +1999,7 @@ body {
   background: #83B3D3;
   border-radius: 10px;
   border-style: none;
-  font-family: 'PT Sans';
+  font-family: "PT Sans", "Arial", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
