@@ -1794,15 +1794,17 @@ body {
 
 .date-field:focus {
   background: #E6E6E6;
-  border: 3px solid #83B3D3;
   border-radius: 4px;
   outline: none;
+  box-shadow: 0 0 0 3px #83B3D3;
 }
 
 .date-field:active {
   background: #FFFFFF;
-  border: 2px solid #000000;
   border-radius: 4px;
+  outline: none;
+  box-shadow: 0 0 0 2px #000000;
+
 }
 
 .field-group.check-in-date {
@@ -2083,9 +2085,9 @@ body {
 
 .search-tour-button:focus {
   background: #68A2CA;
-  border: 3px solid #756257;
   border-radius: 10px;
   outline: none;
+  box-shadow: 0 0 0 3px #756257;
 }
 
 .search-tour-button:active {
@@ -2094,6 +2096,6 @@ body {
 }
 
 
-.modal-container-close {
+/* .modal-container-close {
   display: none;
-}
+} */
