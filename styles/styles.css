@@ -149,6 +149,7 @@ body {
 
 .navigation-link.navigation-link-special:focus {
   background: #615048;
+  outline: none;
 }
 
 .navigation-link.navigation-link-special:active {
@@ -478,6 +479,7 @@ body {
 
 .sedona-travel-link:focus {
   background: #615048;
+  outline: none;
 }
 
 .sedona-travel-link:active {
@@ -556,6 +558,7 @@ body {
 
 .subscribe-button:focus {
   background: #68A2CA;
+  outline: none;
 }
 
 .subscribe-button:active {
@@ -638,6 +641,7 @@ body {
 
 .footer-socials-link:focus path {
   fill: #68A2CA;
+  outline: none;
 }
 
 .footer-socials-link:active path {
@@ -674,6 +678,7 @@ body {
 
 .contacts-phone:focus {
   color: #756157;
+  outline: none;
 }
 
 .contacts-phone:active {
@@ -700,6 +705,7 @@ body {
 
 .htmlacademy-link:focus path {
   fill: #756157;
+  outline: none;
 }
 
 .htmlacademy-link:active path {
@@ -747,6 +753,7 @@ body {
 
 .breadcrumbs-item:focus {
   color: #FFFFFF;
+  outline: none;
 }
 
 .breadcrumbs-item:active {
@@ -771,6 +778,7 @@ body {
 
 .breadcrumbs-link.breadcrumbs-link-hotels:focus {
   color: #FFFFFF;
+  outline: none;
 }
 
 .breadcrumbs-link.breadcrumbs-link-hotels:active {
@@ -790,16 +798,21 @@ body {
   margin: auto 0;
 }
 
-.breadcrumbs-link .home-index-icon:hover {
-  color: rgba(255, 255, 255, 0.6);
+.breadcrumbs-link .home-index-icon:hover path {
+  fill: rgba(255, 255, 255, 0.6);
 }
 
-.breadcrumbs-link .home-index-icon:focus {
-  color: #FFFFFF;
+.breadcrumbs-link .home-index-icon:focus path {
+  fill: #FFFFFF;
+  outline: none;
 }
 
-.breadcrumbs-link .home-index-icon:active {
-  color: rgba(255, 255, 255, 0.3);
+.breadcrumbs-link .home-index-icon:active path {
+  fill: rgba(255, 255, 255, 0.3);
+}
+
+.breadcrumbs-link:focus {
+  outline: none;
 }
 
 /*Каталог гостиниц*/
@@ -872,6 +885,7 @@ body {
 
 .control:focus .control-mark {
   border: 3px solid #83B3D3;
+  outline: none;
 }
 
 .control-input[type="radio"]:checked + .control-mark::before {
@@ -888,6 +902,7 @@ body {
 
 .control:focus .control-input[type="radio"]:checked {
   border: 3px solid #83B3D3;
+  outline: none;
 }
 
 .control-box {
@@ -909,6 +924,7 @@ body {
   background: rgba(255, 255, 255, 0.6);
   border: 3px solid #83B3D3;
   border-radius: 4px;
+  outline: none;
 }
 
 .control-box:active {
@@ -936,6 +952,7 @@ body {
   background: rgba(255, 255, 255, 0.6);
   border: 3px solid #83B3D3;
   border-radius: 4px;
+  outline: none;
 }
 
 .control-box:active .control-input[type="checkbox"]:checked {
@@ -1003,6 +1020,7 @@ body {
   border: 2px solid #83B3D3;
   box-shadow: 0 7px 15px rgba(0, 0, 0, 0.4);
   border-radius: 5px;
+  outline: none;
 }
 
 .toggle-min {
@@ -1034,6 +1052,7 @@ body {
   border: 2px solid #FFFFFF;
   box-shadow: 0 0 0 3px #81B3D2;
   border-radius: 4px;
+  outline: none;
 }
 
 .range-wrapper-inputs:active {
@@ -1080,6 +1099,14 @@ body {
   padding-left: 25px;
 }
 
+.field-price:focus {
+  outline: none;
+}
+
+.field-price:active {
+  outline: none;
+}
+
 .catalog-filter-buttons {
   display: flex;
   flex-direction: column;
@@ -1114,6 +1141,7 @@ body {
 
 .button-submit:focus {
   background: #68A2CA;
+  outline: none;
 }
 
 .button-submit:active {
@@ -1140,7 +1168,6 @@ body {
   padding-bottom: 0;
   border: none;
   cursor: pointer;
-
 }
 
 .button-reset:hover {
@@ -1149,8 +1176,9 @@ body {
 }
 
 .button-reset:focus {
-  border: 3px solid #83B3D3;
   border-radius: 4px;
+  box-shadow: 0 0 0 3px #83B3D3;
+  outline: none;
 }
 
 .button-reset:active {
@@ -1208,6 +1236,7 @@ body {
 .select-control:focus {
   border: 2px solid #68A2CA;
   border-radius: 4px;
+  outline: none;
 }
 
 .select-control:active {
@@ -1257,6 +1286,7 @@ body {
 
 .type-of-view-link:focus {
   border-color: #68A2CA;
+  outline: none;
 }
 
 .type-of-view-link:active {
@@ -1270,7 +1300,6 @@ body {
   width: 48px;
   height: 48px;
 }
-
 
 /*Карточки продуктов*/
 
@@ -1352,6 +1381,7 @@ body {
 
 .product-about:focus {
   background: #615048;
+  outline: none;
 }
 
 .product-about:hover {
@@ -1385,6 +1415,7 @@ body {
 
 .favorites-button:focus {
   background: #68A2CA;
+  outline: none;
 }
 
 .favorites-button:active {
@@ -1409,6 +1440,7 @@ body {
 
 .favorites-button-selected:focus {
   background: #6C9E42;
+  outline: none;
 }
 
 .favorites-button-selected:hover {
@@ -1537,6 +1569,7 @@ body {
 
 .pagination-link:focus {
   background: #68A2CA;
+  outline: none;
 }
 
 .pagination-link:active {
@@ -1559,6 +1592,7 @@ body {
 .pagination-current:focus {
   background-color: #f2f2f2;
   color: #000000;
+  outline: none;
 }
 
 .pagination-current:active {
@@ -1589,6 +1623,28 @@ body {
   width: 160px;
   height: 49px;
   padding: 14px;
+}
+
+.results-on-page:hover {
+  border: 2px solid #68A2CA;
+  border-radius: 4px;
+}
+
+.results-on-page:focus {
+  border: 2px solid #68A2CA;
+  border-radius: 4px;
+  outline: none;
+}
+
+.results-on-page:active {
+  border: 2px solid #3F5E72;
+  border-radius: 4px;
+}
+
+.results-on-page:disabled {
+  border: 2px solid rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+  color: rgba(0, 0, 0, 0.3);
 }
 
 /*Модальное окно*/
@@ -1645,6 +1701,7 @@ body {
 .modal-close-button:focus {
   background: #E6E6E6;
   box-shadow: 0 0 0 3px #83B3D3;
+  outline: none;
 }
 
 .modal-close-button:active {
@@ -1739,6 +1796,7 @@ body {
   background: #E6E6E6;
   border: 3px solid #83B3D3;
   border-radius: 4px;
+  outline: none;
 }
 
 .date-field:active {
@@ -1910,12 +1968,14 @@ body {
   opacity: 1;
   border: 3px solid #83B3D3;
   border-radius: 4px;
+  outline: none;
 }
 
 .button-minus:focus {
   opacity: 1;
   border: 3px solid #83B3D3;
   border-radius: 4px;
+  outline: none;
 }
 
 .button-plus:active {
@@ -1979,6 +2039,7 @@ body {
 .tooltip-toggle:hover + .tooltip-text,
 .tooltip-toggle:focus + .tooltip-text {
   display: block;
+  outline: none;
 }
 
 .tooltip-text::before {
@@ -2024,6 +2085,7 @@ body {
   background: #68A2CA;
   border: 3px solid #756257;
   border-radius: 10px;
+  outline: none;
 }
 
 .search-tour-button:active {
