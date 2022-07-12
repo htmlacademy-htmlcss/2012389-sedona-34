@@ -912,15 +912,14 @@ body {
   content: "";
 }
 
-.control-mark:focus {
-  outline: none;
-  box-shadow: 0 0 0 3px inset #83B3D3;
-
-}
-
-.control-mark:focus .control-input[type="radio"]:checked {
+.control-input[type="radio"]:checked:focus + .control-mark {
   outline: none;
   box-shadow: 0 0 0 3px #83B3D3;
+}
+
+.control-input:focus + .control-mark {
+  outline: none;
+  box-shadow: 0 0 0 3px inset #83B3D3;
 }
 
 .control-box {
@@ -933,19 +932,19 @@ body {
   border-radius: 4px;
 }
 
-.control-box:hover {
+.control-input:hover + .control-box {
   background: rgba(255, 255, 255, 0.6);
   border-radius: 4px;
 }
 
-.control-box:focus {
+.control-input:focus + .control-box {
   background: rgba(255, 255, 255, 0.6);
   box-shadow: 0 0 0 3px #83B3D3;
   border-radius: 4px;
   outline: none;
 }
 
-.control-box:active {
+.control-input:active + .control-box {
   background: rgba(255, 255, 255, 0.3);
   border-radius: 4px;
 }
@@ -961,19 +960,19 @@ body {
   content: "";
 }
 
-.control-box:hover .control-input[type="checkbox"]:checked {
+.control-input[type="checkbox"]:checked:hover + .control-box {
   background: rgba(255, 255, 255, 0.6);
   border-radius: 4px;
 }
 
-.control-box:focus .control-input[type="checkbox"]:checked {
+.control-input[type="checkbox"]:checked:focus + .control-box {
   background: rgba(255, 255, 255, 0.6);
   box-shadow: 0 0 0 3px #83B3D3;
   border-radius: 4px;
   outline: none;
 }
 
-.control-box:active .control-input[type="checkbox"]:checked {
+.control-input[type="checkbox"]:checked:active + .control-box {
   background: rgba(255, 255, 255, 0.3);
   border-radius: 4px;
 }
