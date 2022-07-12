@@ -131,7 +131,6 @@ body {
   border-radius: 4px;
   width: 160px;
   box-sizing: border-box;
-  margin-left: 20px;
   position: absolute;
   left: 20px;
 }
@@ -142,6 +141,9 @@ body {
   position: relative;
 }
 
+.navigation-link.link-with-icon {
+  padding: 12px;
+}
 
 .navigation-link.navigation-link-special:hover {
   background: #615048;
@@ -162,21 +164,8 @@ body {
 }
 
 .navigation-icon {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
+
   margin: auto;
-}
-
-.navigation-icon-search {
-  padding: 23px 12px 24px 12px;
-}
-
-.navigation-icon-favorite {
-  padding: 24px 12px 25px 12px;
-  left: 8px;
 }
 
 .circle {
@@ -193,9 +182,8 @@ body {
   position: absolute;
   width: 19px;
   height: 19px;
-  left: 30px;
   top: 2px;
-  right: 2px;
+  right: 1px;
 }
 
 /*Секция интро*/
@@ -545,7 +533,6 @@ body {
   text-transform: uppercase;
   background-color: #82b3d3;
   width: 200px;
-  height: 60px;
   border: none;
   cursor: pointer;
   display: inline-block;
@@ -603,6 +590,7 @@ body {
   padding-left: 0;
   gap: 10px;
   align-items: center;
+  width: 142px;
 }
 
 .footer-socials-item {
@@ -610,9 +598,6 @@ body {
   min-width: 24px;
   min-height: 24px;
   margin: 0 auto;
-
-  padding-left: 10px;
-  padding-right: 10px;
 }
 
 .footer-socials-icon.youtube-icon {
@@ -1325,6 +1310,7 @@ body {
   row-gap: 16px;
   padding: 20px;
   box-sizing: border-box;
+  align-items: end;
 }
 
 .product-card-image-link {
@@ -1804,7 +1790,6 @@ body {
   border-radius: 4px;
   outline: none;
   box-shadow: 0 0 0 2px #000000;
-
 }
 
 .field-group.check-in-date {
@@ -2096,6 +2081,6 @@ body {
 }
 
 
-/* .modal-container-close {
+.modal-container-close {
   display: none;
-} */
+}
