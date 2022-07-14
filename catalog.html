@@ -28,7 +28,7 @@
           </ul>
           <ul class="navigation-list navigation-user">
             <li class="navigation-item">
-              <a class="navigation-link" href="#">
+              <a class="navigation-link link-with-icon" href="#">
                 <svg class="navigation-icon navigation-icon-search" aria-hidden="true" focusable="false" width="19"
                   height="19" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path
@@ -38,7 +38,7 @@
                 <span class="visually-hidden">Поиск</span></a>
             </li>
             <li class="navigation-item">
-              <a class="navigation-link" href="#">
+              <a class="navigation-link link-with-icon" href="#">
                 <svg class="navigation-icon navigation-icon-favorite" aria-hidden="true" focusable="false" width="19"
                   height="17" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path
@@ -137,12 +137,13 @@
                 <legend class="catalog-filter-price-title">Стоимость, ₽:</legend>
                 <div class="range-wrapper-inputs">
                   <label class="catalog-filter-label">
-                    <input class="field-price" type="number" placeholder="0" name="price-min" id="price-min" value="0">
+                    <input class="field-price field-price-min" type="text" placeholder="0" name="price-min"
+                      id="price-min" value="0">
                     <span class="price-from">от</span>
                   </label>
                   <label class="catalog-filter-label">
-                    <input class="field-price" type="number" placeholder="до" name="price-max" id="price-max"
-                      value="9000">
+                    <input class="field-price field-price-max" type="text" placeholder="до" name="price-max"
+                      id="price-max" value="9000">
                     <span class="price-to">до</span>
                   </label>
                 </div>
